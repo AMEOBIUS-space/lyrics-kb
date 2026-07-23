@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "kb_version": "4.0-lyrics-kb",
+  "kb_version": "4.1-lyrics-kb",
   "created": "2026-07-23",
   "updated": "2026-07-23",
-  "description": "Общая база знаний lyrics-kb: RU + EN theory/techniques/detector + craft/cross + sound corpus + CW 001–010 + EN-001/002 + IND-001/002 + production/suno; genre_bpm stub+pointer",
+  "description": "Общая база знаний lyrics-kb: RU + EN theory/techniques/detector + craft/cross + sound corpus + CW 001–010 + EN-001…003 + IND-001/002 + production/suno; genre_bpm stub+pointer",
   "languages": ["ru", "en", "cross"],
   "categories": ["songwriting", "detector", "production", "suno", "references", "genres", "vocals", "cases"],
   "sources": {
@@ -86,8 +86,9 @@
     {"id": "case-cw-010", "lang": "ru", "category": "cases", "title": "CW-010 ОТТЕПЕЛЬ", "file": "cases/CW-010-ottepel.md", "tags": ["cw-010", "coldwave", "desk"]},
     {"id": "case-en-001", "lang": "en", "category": "cases", "title": "EN-001 RECEIPT STUCK", "file": "cases/EN-001-receipt-stuck.md", "tags": ["en-001", "industrial", "en", "desk"]},
     {"id": "case-en-002", "lang": "en", "category": "cases", "title": "EN-002 BUS WINDOW", "file": "cases/EN-002-bus-window.md", "tags": ["en-002", "post-punk", "en", "desk"]},
+    {"id": "case-en-003", "lang": "en", "category": "cases", "title": "EN-003 COIN JAR", "file": "cases/EN-003-coin-jar.md", "tags": ["en-003", "post-punk", "en", "desk"]},
     {"id": "case-ind-001", "lang": "en", "category": "cases", "title": "IND-001 THIRD PASS", "file": "cases/IND-001-third-pass.md", "tags": ["ind-001", "neurofunk", "en", "desk"]},
     {"id": "case-ind-002", "lang": "en", "category": "cases", "title": "IND-002 KILL THE CREST", "file": "cases/IND-002-kill-the-crest.md", "tags": ["ind-002", "neurofunk", "en", "desk", "diptych"]}
   ],
-  "count": 74
+  "count": 75
 }
