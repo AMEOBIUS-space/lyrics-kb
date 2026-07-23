@@ -25,10 +25,10 @@ Working cases for the ameobius desk. Sound-closed rows also live in `references/
 | ID | Track | Score | BPM | Status | File |
 |---|---|---|---|---|---|
 | EN-001 | RECEIPT STUCK | 8.1 | 118 | desk gen | [EN-001-receipt-stuck.md](./EN-001-receipt-stuck.md) |
-| IND-001 | THIRD PASS | 8.4 | 140 | pending gen (sound corpus) | sound corpus |
-| IND-002 | KILL THE CREST | 8.3 | 134 | pending gen (sound corpus) | sound corpus |
+| IND-001 | THIRD PASS | 8.4 | 140 | desk gen · sound pending | [IND-001-third-pass.md](./IND-001-third-pass.md) |
+| IND-002 | KILL THE CREST | 8.3 | 134 | pending (diptych) | sound corpus slot |
 
-## Series lessons (apply to every new CW gen)
+## Series lessons (CW)
 
 - Pre-chorus **required**; chorus **×2** back-to-back (CW-003)
 - No Mm-intro — plot intro only (CW-004)
@@ -45,12 +45,10 @@ Working cases for the ameobius desk. Sound-closed rows also live in `references/
 
 ## EN / IND lessons
 
-- Card note `Lang: EN`; craft micro-scaffold on card (EN-001)
+- Card note `Lang: EN`; craft micro-scaffold on card (EN-001, IND-001)
 - Do **not** auto-port coldwave EQ into IND gens
 - Anti-slop banks: therapy outro, pop-AI glue, cheap rhyme pairs, industrial cyber stamps
-- YOU must act once (IND-002+ / EN-001)
+- YOU must act once (EN-001 / IND-001+)
 - Outro = fact or action — no comfort lexicon
-
-## IND lane (sound)
-
-See sound corpus IND-001/002 — do **not** auto-port coldwave EQ.
+- IND fail_modes prefix `IND-*` in sound corpus
+- IND-001→002 diptych: procedure pass → crest/kill peak

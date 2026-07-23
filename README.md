@@ -4,7 +4,7 @@
 
 **Repo:** [AMEOBIUS-space/lyrics-kb](https://github.com/AMEOBIUS-space/lyrics-kb)  
 **Источник RU:** [russian-lyrics-kb](https://github.com/AMEOBIUS-space/russian-lyrics-kb)  
-**kb_version:** `3.7-lyrics-kb` · **entries:** 71
+**kb_version:** `3.8-lyrics-kb` · **entries:** 72
 
 ## Статус (2026-07-23)
 
@@ -20,6 +20,7 @@
 | 8. CW case cards | ✅ 003–010 full desk |
 | 9. genre_bpm JSON | ✅ stub desk + pointer → full source |
 | 10. EN desk cases | ✅ EN-001 RECEIPT STUCK |
+| 11. IND desk cases | ✅ IND-001 THIRD PASS |
 
 ## Структура
 
@@ -27,7 +28,7 @@
 songwriting/ru|en|cross/
 detector/ru|en/
 production/  suno/  genres/  vocals/
-references/  cases/   # CW-003…010 + EN-001 + series lessons
+references/  cases/   # CW-003…010 · EN-001 · IND-001
 index.json   journal.jsonl   validate.py
 ```
 
