@@ -22,3 +22,5 @@
 {"date": "2026-07-23", "agent": "eni", "action": "cases-en-008", "summary": "EN-008 SPARE KEY door-hardware residual desk card; index 4.6 count 80"}
 {"date": "2026-07-23", "agent": "eni", "action": "cases-en-009", "summary": "EN-009 EMPTY CHARGER cable residual desk card; index 4.7 count 81"}
 {"date": "2026-07-23", "agent": "eni", "action": "cases-en-010", "summary": "EN-010 SECOND CUP morning residual; EN desk block 001–010 closed; index 4.8 count 82"}
+{"date": "2026-07-23", "agent": "ameobius", "action": "autonomy-migration", "summary": "2cfdd48: catalog 1.6MB + genre_bpm 420 + moods/usecases + modern_ru + opendaw DSP full in-repo; russian-lyrics-kb archived; count 84; validate 84/84; 0 external deps"}
+{"date": "2026-07-23", "agent": "eni", "action": "meta-sync-4.9", "summary": "README/index meta-sync после autonomy: entries 84, genre_bpm full (без stub+pointer), self-contained description, kb 4.9"}
