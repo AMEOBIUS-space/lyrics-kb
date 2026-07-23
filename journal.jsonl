@@ -7,3 +7,4 @@
 {"date": "2026-07-23", "agent": "eni", "action": "en-golden-cross", "summary": "EN golden corpus EG-01..14; songwriting/cross narrative_arc + topline_phrasing."}
 {"date": "2026-07-23", "agent": "eni", "action": "index-3.2", "summary": "index.json → 3.2-lyrics-kb, 61 entries; README status table."}
 {"date": "2026-07-23", "agent": "eni", "action": "enc-multipart-complete", "summary": "Encyclopedia parts 01–17 fully pushed to songwriting/ru/parts/. genre_bpm stub + pointer. Monolith SHA 31ed0fef remains canonical backup."}
+{"date": "2026-07-23", "agent": "eni", "action": "cases-cw-batch", "summary": "cases/: CW series index + CW-003/004/005 full desk cards + CW-006..010 stubs. index 3.3 count 66."}

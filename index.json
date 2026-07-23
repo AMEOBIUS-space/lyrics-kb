@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "kb_version": "3.2-lyrics-kb",
+  "kb_version": "3.3-lyrics-kb",
   "created": "2026-07-23",
   "updated": "2026-07-23",
-  "description": "Общая база знаний lyrics-kb: RU + EN theory/techniques/detector + craft/cross + sound corpus + language-neutral production/suno",
+  "description": "Общая база знаний lyrics-kb: RU + EN theory/techniques/detector + craft/cross + sound corpus + CW cases + language-neutral production/suno",
   "languages": ["ru", "en", "cross"],
-  "categories": ["songwriting", "detector", "production", "suno", "references", "genres", "vocals"],
+  "categories": ["songwriting", "detector", "production", "suno", "references", "genres", "vocals", "cases"],
   "sources": {
     "russian-lyrics-kb": "https://github.com/AMEOBIUS-space/russian-lyrics-kb",
     "tg_suno_promt": {"id": -1003555459454, "name": "SUNO ПРОМПТ от @sergiyp"},
@@ -74,7 +74,12 @@
     {"id": "ref-siliconsense-catalog", "lang": "cross", "category": "references", "title": "SiliconSense Artist Catalog", "file": "references/siliconsense_catalog.md", "tags": ["catalog", "865"]},
     {"id": "ref-siliconsense-genre-bpm", "lang": "cross", "category": "references", "title": "SiliconSense Genre→BPM JSON", "file": "references/siliconsense_genre_bpm.json", "tags": ["bpm", "genre", "json"]},
     {"id": "ref-index", "lang": "ru", "category": "references", "title": "Артисты и ориентиры", "file": "references/index.md", "tags": ["artists"]},
-    {"id": "ref-writing-craft", "lang": "en", "category": "references", "title": "Writing Craft Books", "file": "references/writing_craft_books.md", "tags": ["books", "craft"]}
+    {"id": "ref-writing-craft", "lang": "en", "category": "references", "title": "Writing Craft Books", "file": "references/writing_craft_books.md", "tags": ["books", "craft"]},
+    {"id": "cases-index", "lang": "cross", "category": "cases", "title": "Cases index — CW spine + series lessons", "file": "cases/README.md", "tags": ["cases", "coldwave", "desk"]},
+    {"id": "case-cw-003", "lang": "ru", "category": "cases", "title": "CW-003 РАЗМОРОЗКА", "file": "cases/CW-003-razmorozka.md", "tags": ["cw-003", "coldwave", "desk"]},
+    {"id": "case-cw-004", "lang": "ru", "category": "cases", "title": "CW-004 ЧУЖОЙ ЭТАЖ", "file": "cases/CW-004-chuzhoj-etazh.md", "tags": ["cw-004", "coldwave", "desk"]},
+    {"id": "case-cw-005", "lang": "ru", "category": "cases", "title": "CW-005 СЧЁТЧИК", "file": "cases/CW-005-schetchik.md", "tags": ["cw-005", "coldwave", "desk"]},
+    {"id": "case-cw-006-010-stubs", "lang": "ru", "category": "cases", "title": "CW-006…010 stubs", "file": "cases/CW-006-010-stubs.md", "tags": ["cw", "stubs", "coldwave"]}
   ],
-  "count": 61
+  "count": 66
 }
