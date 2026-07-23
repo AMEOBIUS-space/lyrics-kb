@@ -2,7 +2,7 @@
 
 Микс, мастеринг, sound design, EQ, vocal chain — общее для всех языков.
 
-Перенесено из `russian-lyrics-kb/production`.
+Перенесено из `russian-lyrics-kb` (архив, контент мигрирован)` — `production`.
 
 | Файл | Содержание |
 |---|---|

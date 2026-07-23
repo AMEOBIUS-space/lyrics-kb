@@ -4,98 +4,1012 @@
   "created": "2026-07-23",
   "updated": "2026-07-23",
   "description": "Общая база знаний lyrics-kb: RU + EN theory/techniques/detector + craft/cross + sound corpus + CW 001–010 + EN-001…010 + IND-001/002 + production/suno; genre_bpm stub+pointer",
-  "languages": ["ru", "en", "cross"],
-  "categories": ["songwriting", "detector", "production", "suno", "references", "genres", "vocals", "cases"],
+  "languages": [
+    "ru",
+    "en",
+    "cross"
+  ],
+  "categories": [
+    "songwriting",
+    "detector",
+    "production",
+    "suno",
+    "references",
+    "genres",
+    "vocals",
+    "cases"
+  ],
   "sources": {
-    "russian-lyrics-kb": "https://github.com/AMEOBIUS-space/russian-lyrics-kb",
-    "tg_suno_promt": {"id": -1003555459454, "name": "SUNO ПРОМПТ от @sergiyp"},
-    "tg_suno_lodzhia": {"id": -1003528662907, "name": "SUNO Лоджия"},
-    "discord_producers": {"guild": "1506284805464260648", "name": "Producers"}
+    "russian-lyrics-kb": "https://github.com/AMEOBIUS-space/russian-lyrics-kb (archived — content migrated)",
+    "tg_suno_promt": {
+      "id": -1003555459454,
+      "name": "SUNO ПРОМПТ от @sergiyp"
+    },
+    "tg_suno_lodzhia": {
+      "id": -1003528662907,
+      "name": "SUNO Лоджия"
+    },
+    "discord_producers": {
+      "guild": "1506284805464260648",
+      "name": "Producers"
+    }
   },
   "entries": [
-    {"id": "song-encyclopedia", "lang": "ru", "category": "songwriting", "title": "Энциклопедия русскоязычной лирики v2.0 (multipart hub)", "file": "songwriting/ru/encyclopedia.md", "tags": ["encyclopedia", "detector", "scoring", "ru"]},
-    {"id": "song-modern-russian", "lang": "ru", "category": "songwriting", "title": "Современная русская лирика: голос и стиль", "file": "songwriting/ru/modern_russian_lyrics.md", "tags": ["lyrics", "russian", "pantheon"]},
-    {"id": "song-lyrics", "lang": "ru", "category": "songwriting", "title": "Лирика и структура", "file": "songwriting/ru/lyrics.md", "tags": ["structure", "hook", "anti-ai"]},
-    {"id": "song-pipeline-demo-ep", "lang": "ru", "category": "songwriting", "title": "Мини-EP «Лёд не встал»", "file": "songwriting/ru/pipeline_demo_ep.md", "tags": ["demo", "folk-horror", "pipeline"]},
-    {"id": "en-prosody", "lang": "en", "category": "songwriting", "title": "EN Theory: Prosody", "file": "songwriting/en/theory/prosody.md", "tags": ["prosody", "stress", "en"]},
-    {"id": "en-rhyme", "lang": "en", "category": "songwriting", "title": "EN Theory: Rhyme types", "file": "songwriting/en/theory/rhyme.md", "tags": ["rhyme", "en"]},
-    {"id": "en-structure", "lang": "en", "category": "songwriting", "title": "EN Theory: Song structure", "file": "songwriting/en/theory/song_structure.md", "tags": ["structure", "en"]},
-    {"id": "en-hooks", "lang": "en", "category": "songwriting", "title": "EN Theory: Hooks & titles", "file": "songwriting/en/theory/hooks_and_titles.md", "tags": ["hooks", "title", "en"]},
-    {"id": "en-meter", "lang": "en", "category": "songwriting", "title": "EN Theory: Meter & phrasing", "file": "songwriting/en/theory/meter_phrasing.md", "tags": ["meter", "phrasing", "en"]},
-    {"id": "en-object-writing", "lang": "en", "category": "songwriting", "title": "EN Technique: Object writing", "file": "songwriting/en/techniques/object_writing.md", "tags": ["object-writing", "senses", "en"]},
-    {"id": "en-boxes", "lang": "en", "category": "songwriting", "title": "EN Technique: Boxes / worksheets", "file": "songwriting/en/techniques/boxes_worksheets.md", "tags": ["boxes", "worksheet", "en"]},
-    {"id": "en-tension", "lang": "en", "category": "songwriting", "title": "EN Technique: Tension & release", "file": "songwriting/en/techniques/tension_and_release.md", "tags": ["tension", "en"]},
-    {"id": "en-pov", "lang": "en", "category": "songwriting", "title": "EN Technique: Point of view", "file": "songwriting/en/techniques/pov.md", "tags": ["pov", "en"]},
-    {"id": "en-figurative", "lang": "en", "category": "songwriting", "title": "EN Technique: Figurative language", "file": "songwriting/en/techniques/figurative_language.md", "tags": ["metaphor", "en"]},
-    {"id": "en-craft-layer", "lang": "en", "category": "songwriting", "title": "EN Craft Layer (ops)", "file": "songwriting/en/EN_CRAFT_LAYER.md", "tags": ["craft", "ops", "en", "desk"]},
-    {"id": "cross-readme", "lang": "cross", "category": "songwriting", "title": "Cross layer — language-neutral", "file": "songwriting/cross/README.md", "tags": ["cross", "narrative", "topline"]},
-    {"id": "cross-narrative", "lang": "cross", "category": "songwriting", "title": "Cross: Narrative arc", "file": "songwriting/cross/narrative_arc.md", "tags": ["narrative", "cross"]},
-    {"id": "cross-topline", "lang": "cross", "category": "songwriting", "title": "Cross: Topline phrasing", "file": "songwriting/cross/topline_phrasing.md", "tags": ["topline", "prosody", "cross"]},
-    {"id": "detector-ru", "lang": "ru", "category": "detector", "title": "Detector RU — точка входа", "file": "detector/ru/README.md", "tags": ["detector", "ai-slop"]},
-    {"id": "detector-en", "lang": "en", "category": "detector", "title": "Detector EN 1.0 — entry", "file": "detector/en/README.md", "tags": ["detector", "en"]},
-    {"id": "detector-en-patterns", "lang": "en", "category": "detector", "title": "EN patterns E01–E20", "file": "detector/en/patterns.md", "tags": ["patterns", "en"]},
-    {"id": "detector-en-whitelist", "lang": "en", "category": "detector", "title": "EN whitelist W1–W6", "file": "detector/en/whitelist.md", "tags": ["whitelist", "en"]},
-    {"id": "detector-en-scoring", "lang": "en", "category": "detector", "title": "EN scoring E1–E12", "file": "detector/en/scoring.md", "tags": ["scoring", "en"]},
-    {"id": "detector-en-cliches", "lang": "en", "category": "detector", "title": "EN cliché rhyme hotlist", "file": "detector/en/cliche_rhymes.md", "tags": ["rhyme", "cliche", "en"]},
-    {"id": "prod-mixing", "lang": "cross", "category": "production", "title": "Сведение", "file": "production/mixing.md", "tags": ["mixing", "eq"]},
-    {"id": "prod-mastering", "lang": "cross", "category": "production", "title": "Мастеринг", "file": "production/mastering.md", "tags": ["mastering", "lufs"]},
-    {"id": "prod-coldwave", "lang": "cross", "category": "production", "title": "Coldwave 7-stem mix", "file": "production/coldwave_mix_mastering.md", "tags": ["coldwave", "opendaw"]},
-    {"id": "prod-post-master", "lang": "cross", "category": "production", "title": "Post-Master Pipeline pro2/pro3", "file": "production/post_master_pipeline.md", "tags": ["mastering", "scipy"]},
-    {"id": "prod-postprocessing", "lang": "cross", "category": "production", "title": "Постобработка AI-генерации v2", "file": "production/postprocessing_v2.md", "tags": ["flashsr", "stems"]},
-    {"id": "prod-bandlab", "lang": "cross", "category": "production", "title": "BandLab Mastering Presets", "file": "production/bandlab_mastering_presets.md", "tags": ["bandlab", "presets"]},
-    {"id": "prod-opendaw-dsp", "lang": "cross", "category": "production", "title": "openDAW DSP Scripts (111)", "file": "production/opendaw_dsp_scripts.md", "tags": ["opendaw", "dsp"]},
-    {"id": "suno-prompts", "lang": "cross", "category": "suno", "title": "Промпт-инженерия", "file": "suno/prompts.md", "tags": ["prompts", "meta-tags"]},
-    {"id": "suno-v5-advanced", "lang": "cross", "category": "suno", "title": "v5.5 продвинутый фреймворк", "file": "suno/v5-advanced.md", "tags": ["v5.5", "t16"]},
-    {"id": "suno-vocal-anchors", "lang": "cross", "category": "suno", "title": "24 вокальных якоря", "file": "suno/vocal_anchors.md", "tags": ["vocals", "anchors"]},
-    {"id": "suno-behavior-tags", "lang": "cross", "category": "suno", "title": "48 behavior tags", "file": "suno/behavior_tags.md", "tags": ["behavior", "structure"]},
-    {"id": "suno-genre-bpm", "lang": "cross", "category": "suno", "title": "Жанр→BPM карта", "file": "suno/genre_bpm_map.md", "tags": ["genre", "bpm"]},
-    {"id": "suno-siliconsense-guides", "lang": "cross", "category": "suno", "title": "SiliconSense Guides (10)", "file": "suno/siliconsense_guides.md", "tags": ["guides", "suno"]},
-    {"id": "suno-moods-usecases", "lang": "cross", "category": "suno", "title": "217 moods + 394 use cases", "file": "suno/moods_usecases.md", "tags": ["moods", "usecases"]},
-    {"id": "suno-stem-mixing", "lang": "cross", "category": "suno", "title": "Стем-микс Suno Studio", "file": "suno/stem_mixing.md", "tags": ["stems", "mixing"]},
-    {"id": "suno-vocals", "lang": "cross", "category": "suno", "title": "Ровный рок-вокал без визга", "file": "suno/vocals.md", "tags": ["vocals", "rock"]},
-    {"id": "suno-arrangement", "lang": "cross", "category": "suno", "title": "Инструменты пропадают в припеве", "file": "suno/arrangement.md", "tags": ["arrangement"]},
-    {"id": "suno-persona", "lang": "cross", "category": "suno", "title": "Дрейф персоны", "file": "suno/persona.md", "tags": ["persona"]},
-    {"id": "suno-versions", "lang": "cross", "category": "suno", "title": "Версии Suno", "file": "suno/versions.md", "tags": ["versions"]},
-    {"id": "suno-quirks", "lang": "cross", "category": "suno", "title": "Баги и особенности", "file": "suno/quirks.md", "tags": ["bugs"]},
-    {"id": "suno-proc-generation", "lang": "cross", "category": "suno", "title": "Процедура: полный пайплайн генерации", "file": "suno/procedures/generation-workflow.md", "tags": ["procedure", "workflow"]},
-    {"id": "suno-proc-rock-vocal", "lang": "cross", "category": "suno", "title": "Процедура: ровный рок-вокал", "file": "suno/procedures/rock-vocal-no-scream.md", "tags": ["procedure", "vocals"]},
-    {"id": "suno-proc-v5", "lang": "cross", "category": "suno", "title": "Процедура: v5.5 framework", "file": "suno/procedures/v5-advanced-framework.md", "tags": ["procedure", "v5.5"]},
-    {"id": "suno-proc-arrangement", "lang": "cross", "category": "suno", "title": "Процедура: фикс аранжировки", "file": "suno/procedures/arrangement-fix.md", "tags": ["procedure", "arrangement"]},
-    {"id": "genre-folk-horror", "lang": "ru", "category": "genres", "title": "Плейбук: Фолк-хоррор", "file": "genres/folk_horror.md", "tags": ["folk-horror", "playbook"]},
-    {"id": "genre-darksynth", "lang": "ru", "category": "genres", "title": "Плейбук: Darksynth/Coldwave", "file": "genres/darksynth_coldwave.md", "tags": ["darksynth", "playbook"]},
-    {"id": "genre-cloud-bedroom", "lang": "ru", "category": "genres", "title": "Плейбук: Саундклауд-волна", "file": "genres/cloud_bedroom.md", "tags": ["cloud", "playbook"]},
-    {"id": "genres-index", "lang": "cross", "category": "genres", "title": "Жанровые характеристики", "file": "genres/index.md", "tags": ["genres"]},
-    {"id": "vocals-types", "lang": "cross", "category": "vocals", "title": "Типы голоса и обработка", "file": "vocals/types.md", "tags": ["vocals"]},
-    {"id": "ref-golden-corpus", "lang": "ru", "category": "references", "title": "Золотой корпус (14 кейсов)", "file": "references/golden_corpus.md", "tags": ["detector", "regression"]},
-    {"id": "ref-en-golden-corpus", "lang": "en", "category": "references", "title": "EN Golden Corpus (EG-01..14)", "file": "references/en_golden_corpus.md", "tags": ["detector", "regression", "en"]},
-    {"id": "ref-sound-corpus", "lang": "cross", "category": "references", "title": "Sound corpus v0.1", "file": "references/sound_corpus.md", "tags": ["sound", "cw", "ind", "mix"]},
-    {"id": "ref-pantheon-v2", "lang": "ru", "category": "references", "title": "Пантеон 2.0 и blend-карта", "file": "references/pantheon_v2.md", "tags": ["pantheon", "blend"]},
-    {"id": "ref-scene-2025-2026", "lang": "ru", "category": "references", "title": "Разведка сцены 2024–2026", "file": "references/scene_2025_2026.md", "tags": ["scene", "research"]},
-    {"id": "ref-siliconsense-catalog", "lang": "cross", "category": "references", "title": "SiliconSense Artist Catalog", "file": "references/siliconsense_catalog.md", "tags": ["catalog", "865"]},
-    {"id": "ref-siliconsense-genre-bpm", "lang": "cross", "category": "references", "title": "SiliconSense Genre→BPM JSON (stub+pointer)", "file": "references/siliconsense_genre_bpm.json", "tags": ["bpm", "genre", "json", "stub"]},
-    {"id": "ref-index", "lang": "ru", "category": "references", "title": "Артисты и ориентиры", "file": "references/index.md", "tags": ["artists"]},
-    {"id": "ref-writing-craft", "lang": "en", "category": "references", "title": "Writing Craft Books", "file": "references/writing_craft_books.md", "tags": ["books", "craft"]},
-    {"id": "cases-index", "lang": "cross", "category": "cases", "title": "Cases index — CW spine + EN/IND lane", "file": "cases/README.md", "tags": ["cases", "coldwave", "en", "ind", "desk"]},
-    {"id": "case-cw-003", "lang": "ru", "category": "cases", "title": "CW-003 РАЗМОРОЗКА", "file": "cases/CW-003-razmorozka.md", "tags": ["cw-003", "coldwave", "desk"]},
-    {"id": "case-cw-004", "lang": "ru", "category": "cases", "title": "CW-004 ЧУЖОЙ ЭТАЖ", "file": "cases/CW-004-chuzhoj-etazh.md", "tags": ["cw-004", "coldwave", "desk"]},
-    {"id": "case-cw-005", "lang": "ru", "category": "cases", "title": "CW-005 СЧЁТЧИК", "file": "cases/CW-005-schetchik.md", "tags": ["cw-005", "coldwave", "desk"]},
-    {"id": "case-cw-006", "lang": "ru", "category": "cases", "title": "CW-006 ВТОРАЯ СМЕНА", "file": "cases/CW-006-vtoraya-smena.md", "tags": ["cw-006", "coldwave", "desk"]},
-    {"id": "case-cw-007", "lang": "ru", "category": "cases", "title": "CW-007 КРУГЛОСУТОЧНЫЙ", "file": "cases/CW-007-kruglosutochnyj.md", "tags": ["cw-007", "coldwave", "desk"]},
-    {"id": "case-cw-008", "lang": "ru", "category": "cases", "title": "CW-008 ПО ТУ СТОРОНУ КАССЫ", "file": "cases/CW-008-po-tu-storonu-kassy.md", "tags": ["cw-008", "coldwave", "desk", "diptych"]},
-    {"id": "case-cw-009", "lang": "ru", "category": "cases", "title": "CW-009 ДНЕВНОЙ СВЕТ", "file": "cases/CW-009-dnevnoj-svet.md", "tags": ["cw-009", "coldwave", "desk"]},
-    {"id": "case-cw-010", "lang": "ru", "category": "cases", "title": "CW-010 ОТТЕПЕЛЬ", "file": "cases/CW-010-ottepel.md", "tags": ["cw-010", "coldwave", "desk"]},
-    {"id": "case-en-001", "lang": "en", "category": "cases", "title": "EN-001 RECEIPT STUCK", "file": "cases/EN-001-receipt-stuck.md", "tags": ["en-001", "industrial", "en", "desk"]},
-    {"id": "case-en-002", "lang": "en", "category": "cases", "title": "EN-002 BUS WINDOW", "file": "cases/EN-002-bus-window.md", "tags": ["en-002", "post-punk", "en", "desk"]},
-    {"id": "case-en-003", "lang": "en", "category": "cases", "title": "EN-003 COIN JAR", "file": "cases/EN-003-coin-jar.md", "tags": ["en-003", "post-punk", "en", "desk"]},
-    {"id": "case-en-004", "lang": "en", "category": "cases", "title": "EN-004 LAUNDROMAT", "file": "cases/EN-004-laundromat.md", "tags": ["en-004", "post-punk", "en", "desk"]},
-    {"id": "case-en-005", "lang": "en", "category": "cases", "title": "EN-005 PARKING TICKET", "file": "cases/EN-005-parking-ticket.md", "tags": ["en-005", "post-punk", "en", "desk"]},
-    {"id": "case-en-006", "lang": "en", "category": "cases", "title": "EN-006 VENDING SLOT", "file": "cases/EN-006-vending-slot.md", "tags": ["en-006", "post-punk", "en", "desk"]},
-    {"id": "case-en-007", "lang": "en", "category": "cases", "title": "EN-007 LOST GLOVE", "file": "cases/EN-007-lost-glove.md", "tags": ["en-007", "post-punk", "en", "desk"]},
-    {"id": "case-en-008", "lang": "en", "category": "cases", "title": "EN-008 SPARE KEY", "file": "cases/EN-008-spare-key.md", "tags": ["en-008", "post-punk", "en", "desk"]},
-    {"id": "case-en-009", "lang": "en", "category": "cases", "title": "EN-009 EMPTY CHARGER", "file": "cases/EN-009-empty-charger.md", "tags": ["en-009", "post-punk", "en", "desk"]},
-    {"id": "case-en-010", "lang": "en", "category": "cases", "title": "EN-010 SECOND CUP", "file": "cases/EN-010-second-cup.md", "tags": ["en-010", "post-punk", "en", "desk"]},
-    {"id": "case-ind-001", "lang": "en", "category": "cases", "title": "IND-001 THIRD PASS", "file": "cases/IND-001-third-pass.md", "tags": ["ind-001", "neurofunk", "en", "desk"]},
-    {"id": "case-ind-002", "lang": "en", "category": "cases", "title": "IND-002 KILL THE CREST", "file": "cases/IND-002-kill-the-crest.md", "tags": ["ind-002", "neurofunk", "en", "desk", "diptych"]}
+    {
+      "id": "song-encyclopedia",
+      "lang": "ru",
+      "category": "songwriting",
+      "title": "Энциклопедия русскоязычной лирики v2.0 (multipart hub)",
+      "file": "songwriting/ru/encyclopedia.md",
+      "tags": [
+        "encyclopedia",
+        "detector",
+        "scoring",
+        "ru"
+      ]
+    },
+    {
+      "id": "song-modern-russian",
+      "lang": "ru",
+      "category": "songwriting",
+      "title": "Современная русская лирика: голос и стиль",
+      "file": "songwriting/ru/modern_russian_lyrics.md",
+      "tags": [
+        "lyrics",
+        "russian",
+        "pantheon"
+      ]
+    },
+    {
+      "id": "song-lyrics",
+      "lang": "ru",
+      "category": "songwriting",
+      "title": "Лирика и структура",
+      "file": "songwriting/ru/lyrics.md",
+      "tags": [
+        "structure",
+        "hook",
+        "anti-ai"
+      ]
+    },
+    {
+      "id": "song-pipeline-demo-ep",
+      "lang": "ru",
+      "category": "songwriting",
+      "title": "Мини-EP «Лёд не встал»",
+      "file": "songwriting/ru/pipeline_demo_ep.md",
+      "tags": [
+        "demo",
+        "folk-horror",
+        "pipeline"
+      ]
+    },
+    {
+      "id": "en-prosody",
+      "lang": "en",
+      "category": "songwriting",
+      "title": "EN Theory: Prosody",
+      "file": "songwriting/en/theory/prosody.md",
+      "tags": [
+        "prosody",
+        "stress",
+        "en"
+      ]
+    },
+    {
+      "id": "en-rhyme",
+      "lang": "en",
+      "category": "songwriting",
+      "title": "EN Theory: Rhyme types",
+      "file": "songwriting/en/theory/rhyme.md",
+      "tags": [
+        "rhyme",
+        "en"
+      ]
+    },
+    {
+      "id": "en-structure",
+      "lang": "en",
+      "category": "songwriting",
+      "title": "EN Theory: Song structure",
+      "file": "songwriting/en/theory/song_structure.md",
+      "tags": [
+        "structure",
+        "en"
+      ]
+    },
+    {
+      "id": "en-hooks",
+      "lang": "en",
+      "category": "songwriting",
+      "title": "EN Theory: Hooks & titles",
+      "file": "songwriting/en/theory/hooks_and_titles.md",
+      "tags": [
+        "hooks",
+        "title",
+        "en"
+      ]
+    },
+    {
+      "id": "en-meter",
+      "lang": "en",
+      "category": "songwriting",
+      "title": "EN Theory: Meter & phrasing",
+      "file": "songwriting/en/theory/meter_phrasing.md",
+      "tags": [
+        "meter",
+        "phrasing",
+        "en"
+      ]
+    },
+    {
+      "id": "en-object-writing",
+      "lang": "en",
+      "category": "songwriting",
+      "title": "EN Technique: Object writing",
+      "file": "songwriting/en/techniques/object_writing.md",
+      "tags": [
+        "object-writing",
+        "senses",
+        "en"
+      ]
+    },
+    {
+      "id": "en-boxes",
+      "lang": "en",
+      "category": "songwriting",
+      "title": "EN Technique: Boxes / worksheets",
+      "file": "songwriting/en/techniques/boxes_worksheets.md",
+      "tags": [
+        "boxes",
+        "worksheet",
+        "en"
+      ]
+    },
+    {
+      "id": "en-tension",
+      "lang": "en",
+      "category": "songwriting",
+      "title": "EN Technique: Tension & release",
+      "file": "songwriting/en/techniques/tension_and_release.md",
+      "tags": [
+        "tension",
+        "en"
+      ]
+    },
+    {
+      "id": "en-pov",
+      "lang": "en",
+      "category": "songwriting",
+      "title": "EN Technique: Point of view",
+      "file": "songwriting/en/techniques/pov.md",
+      "tags": [
+        "pov",
+        "en"
+      ]
+    },
+    {
+      "id": "en-figurative",
+      "lang": "en",
+      "category": "songwriting",
+      "title": "EN Technique: Figurative language",
+      "file": "songwriting/en/techniques/figurative_language.md",
+      "tags": [
+        "metaphor",
+        "en"
+      ]
+    },
+    {
+      "id": "en-craft-layer",
+      "lang": "en",
+      "category": "songwriting",
+      "title": "EN Craft Layer (ops)",
+      "file": "songwriting/en/EN_CRAFT_LAYER.md",
+      "tags": [
+        "craft",
+        "ops",
+        "en",
+        "desk"
+      ]
+    },
+    {
+      "id": "cross-readme",
+      "lang": "cross",
+      "category": "songwriting",
+      "title": "Cross layer — language-neutral",
+      "file": "songwriting/cross/README.md",
+      "tags": [
+        "cross",
+        "narrative",
+        "topline"
+      ]
+    },
+    {
+      "id": "cross-narrative",
+      "lang": "cross",
+      "category": "songwriting",
+      "title": "Cross: Narrative arc",
+      "file": "songwriting/cross/narrative_arc.md",
+      "tags": [
+        "narrative",
+        "cross"
+      ]
+    },
+    {
+      "id": "cross-topline",
+      "lang": "cross",
+      "category": "songwriting",
+      "title": "Cross: Topline phrasing",
+      "file": "songwriting/cross/topline_phrasing.md",
+      "tags": [
+        "topline",
+        "prosody",
+        "cross"
+      ]
+    },
+    {
+      "id": "detector-ru",
+      "lang": "ru",
+      "category": "detector",
+      "title": "Detector RU — точка входа",
+      "file": "detector/ru/README.md",
+      "tags": [
+        "detector",
+        "ai-slop"
+      ]
+    },
+    {
+      "id": "detector-en",
+      "lang": "en",
+      "category": "detector",
+      "title": "Detector EN 1.0 — entry",
+      "file": "detector/en/README.md",
+      "tags": [
+        "detector",
+        "en"
+      ]
+    },
+    {
+      "id": "detector-en-patterns",
+      "lang": "en",
+      "category": "detector",
+      "title": "EN patterns E01–E20",
+      "file": "detector/en/patterns.md",
+      "tags": [
+        "patterns",
+        "en"
+      ]
+    },
+    {
+      "id": "detector-en-whitelist",
+      "lang": "en",
+      "category": "detector",
+      "title": "EN whitelist W1–W6",
+      "file": "detector/en/whitelist.md",
+      "tags": [
+        "whitelist",
+        "en"
+      ]
+    },
+    {
+      "id": "detector-en-scoring",
+      "lang": "en",
+      "category": "detector",
+      "title": "EN scoring E1–E12",
+      "file": "detector/en/scoring.md",
+      "tags": [
+        "scoring",
+        "en"
+      ]
+    },
+    {
+      "id": "detector-en-cliches",
+      "lang": "en",
+      "category": "detector",
+      "title": "EN cliché rhyme hotlist",
+      "file": "detector/en/cliche_rhymes.md",
+      "tags": [
+        "rhyme",
+        "cliche",
+        "en"
+      ]
+    },
+    {
+      "id": "prod-mixing",
+      "lang": "cross",
+      "category": "production",
+      "title": "Сведение",
+      "file": "production/mixing.md",
+      "tags": [
+        "mixing",
+        "eq"
+      ]
+    },
+    {
+      "id": "prod-mastering",
+      "lang": "cross",
+      "category": "production",
+      "title": "Мастеринг",
+      "file": "production/mastering.md",
+      "tags": [
+        "mastering",
+        "lufs"
+      ]
+    },
+    {
+      "id": "prod-coldwave",
+      "lang": "cross",
+      "category": "production",
+      "title": "Coldwave 7-stem mix",
+      "file": "production/coldwave_mix_mastering.md",
+      "tags": [
+        "coldwave",
+        "opendaw"
+      ]
+    },
+    {
+      "id": "prod-post-master",
+      "lang": "cross",
+      "category": "production",
+      "title": "Post-Master Pipeline pro2/pro3",
+      "file": "production/post_master_pipeline.md",
+      "tags": [
+        "mastering",
+        "scipy"
+      ]
+    },
+    {
+      "id": "prod-postprocessing",
+      "lang": "cross",
+      "category": "production",
+      "title": "Постобработка AI-генерации v2",
+      "file": "production/postprocessing_v2.md",
+      "tags": [
+        "flashsr",
+        "stems"
+      ]
+    },
+    {
+      "id": "prod-bandlab",
+      "lang": "cross",
+      "category": "production",
+      "title": "BandLab Mastering Presets",
+      "file": "production/bandlab_mastering_presets.md",
+      "tags": [
+        "bandlab",
+        "presets"
+      ]
+    },
+    {
+      "id": "prod-opendaw-dsp",
+      "lang": "cross",
+      "category": "production",
+      "title": "openDAW DSP Scripts (111)",
+      "file": "production/opendaw_dsp_scripts.md",
+      "tags": [
+        "opendaw",
+        "dsp"
+      ]
+    },
+    {
+      "id": "suno-prompts",
+      "lang": "cross",
+      "category": "suno",
+      "title": "Промпт-инженерия",
+      "file": "suno/prompts.md",
+      "tags": [
+        "prompts",
+        "meta-tags"
+      ]
+    },
+    {
+      "id": "suno-v5-advanced",
+      "lang": "cross",
+      "category": "suno",
+      "title": "v5.5 продвинутый фреймворк",
+      "file": "suno/v5-advanced.md",
+      "tags": [
+        "v5.5",
+        "t16"
+      ]
+    },
+    {
+      "id": "suno-vocal-anchors",
+      "lang": "cross",
+      "category": "suno",
+      "title": "24 вокальных якоря",
+      "file": "suno/vocal_anchors.md",
+      "tags": [
+        "vocals",
+        "anchors"
+      ]
+    },
+    {
+      "id": "suno-behavior-tags",
+      "lang": "cross",
+      "category": "suno",
+      "title": "48 behavior tags",
+      "file": "suno/behavior_tags.md",
+      "tags": [
+        "behavior",
+        "structure"
+      ]
+    },
+    {
+      "id": "suno-genre-bpm",
+      "lang": "cross",
+      "category": "suno",
+      "title": "Жанр→BPM карта",
+      "file": "suno/genre_bpm_map.md",
+      "tags": [
+        "genre",
+        "bpm"
+      ]
+    },
+    {
+      "id": "suno-siliconsense-guides",
+      "lang": "cross",
+      "category": "suno",
+      "title": "SiliconSense Guides (10)",
+      "file": "suno/siliconsense_guides.md",
+      "tags": [
+        "guides",
+        "suno"
+      ]
+    },
+    {
+      "id": "suno-moods-usecases",
+      "lang": "cross",
+      "category": "suno",
+      "title": "217 moods + 394 use cases",
+      "file": "suno/moods_usecases.md",
+      "tags": [
+        "moods",
+        "usecases"
+      ]
+    },
+    {
+      "id": "suno-stem-mixing",
+      "lang": "cross",
+      "category": "suno",
+      "title": "Стем-микс Suno Studio",
+      "file": "suno/stem_mixing.md",
+      "tags": [
+        "stems",
+        "mixing"
+      ]
+    },
+    {
+      "id": "suno-vocals",
+      "lang": "cross",
+      "category": "suno",
+      "title": "Ровный рок-вокал без визга",
+      "file": "suno/vocals.md",
+      "tags": [
+        "vocals",
+        "rock"
+      ]
+    },
+    {
+      "id": "suno-arrangement",
+      "lang": "cross",
+      "category": "suno",
+      "title": "Инструменты пропадают в припеве",
+      "file": "suno/arrangement.md",
+      "tags": [
+        "arrangement"
+      ]
+    },
+    {
+      "id": "suno-persona",
+      "lang": "cross",
+      "category": "suno",
+      "title": "Дрейф персоны",
+      "file": "suno/persona.md",
+      "tags": [
+        "persona"
+      ]
+    },
+    {
+      "id": "suno-versions",
+      "lang": "cross",
+      "category": "suno",
+      "title": "Версии Suno",
+      "file": "suno/versions.md",
+      "tags": [
+        "versions"
+      ]
+    },
+    {
+      "id": "suno-quirks",
+      "lang": "cross",
+      "category": "suno",
+      "title": "Баги и особенности",
+      "file": "suno/quirks.md",
+      "tags": [
+        "bugs"
+      ]
+    },
+    {
+      "id": "suno-proc-generation",
+      "lang": "cross",
+      "category": "suno",
+      "title": "Процедура: полный пайплайн генерации",
+      "file": "suno/procedures/generation-workflow.md",
+      "tags": [
+        "procedure",
+        "workflow"
+      ]
+    },
+    {
+      "id": "suno-proc-rock-vocal",
+      "lang": "cross",
+      "category": "suno",
+      "title": "Процедура: ровный рок-вокал",
+      "file": "suno/procedures/rock-vocal-no-scream.md",
+      "tags": [
+        "procedure",
+        "vocals"
+      ]
+    },
+    {
+      "id": "suno-proc-v5",
+      "lang": "cross",
+      "category": "suno",
+      "title": "Процедура: v5.5 framework",
+      "file": "suno/procedures/v5-advanced-framework.md",
+      "tags": [
+        "procedure",
+        "v5.5"
+      ]
+    },
+    {
+      "id": "suno-proc-arrangement",
+      "lang": "cross",
+      "category": "suno",
+      "title": "Процедура: фикс аранжировки",
+      "file": "suno/procedures/arrangement-fix.md",
+      "tags": [
+        "procedure",
+        "arrangement"
+      ]
+    },
+    {
+      "id": "genre-folk-horror",
+      "lang": "ru",
+      "category": "genres",
+      "title": "Плейбук: Фолк-хоррор",
+      "file": "genres/folk_horror.md",
+      "tags": [
+        "folk-horror",
+        "playbook"
+      ]
+    },
+    {
+      "id": "genre-darksynth",
+      "lang": "ru",
+      "category": "genres",
+      "title": "Плейбук: Darksynth/Coldwave",
+      "file": "genres/darksynth_coldwave.md",
+      "tags": [
+        "darksynth",
+        "playbook"
+      ]
+    },
+    {
+      "id": "genre-cloud-bedroom",
+      "lang": "ru",
+      "category": "genres",
+      "title": "Плейбук: Саундклауд-волна",
+      "file": "genres/cloud_bedroom.md",
+      "tags": [
+        "cloud",
+        "playbook"
+      ]
+    },
+    {
+      "id": "genres-index",
+      "lang": "cross",
+      "category": "genres",
+      "title": "Жанровые характеристики",
+      "file": "genres/index.md",
+      "tags": [
+        "genres"
+      ]
+    },
+    {
+      "id": "vocals-types",
+      "lang": "cross",
+      "category": "vocals",
+      "title": "Типы голоса и обработка",
+      "file": "vocals/types.md",
+      "tags": [
+        "vocals"
+      ]
+    },
+    {
+      "id": "ref-golden-corpus",
+      "lang": "ru",
+      "category": "references",
+      "title": "Золотой корпус (14 кейсов)",
+      "file": "references/golden_corpus.md",
+      "tags": [
+        "detector",
+        "regression"
+      ]
+    },
+    {
+      "id": "ref-en-golden-corpus",
+      "lang": "en",
+      "category": "references",
+      "title": "EN Golden Corpus (EG-01..14)",
+      "file": "references/en_golden_corpus.md",
+      "tags": [
+        "detector",
+        "regression",
+        "en"
+      ]
+    },
+    {
+      "id": "ref-sound-corpus",
+      "lang": "cross",
+      "category": "references",
+      "title": "Sound corpus v0.1",
+      "file": "references/sound_corpus.md",
+      "tags": [
+        "sound",
+        "cw",
+        "ind",
+        "mix"
+      ]
+    },
+    {
+      "id": "ref-pantheon-v2",
+      "lang": "ru",
+      "category": "references",
+      "title": "Пантеон 2.0 и blend-карта",
+      "file": "references/pantheon_v2.md",
+      "tags": [
+        "pantheon",
+        "blend"
+      ]
+    },
+    {
+      "id": "ref-scene-2025-2026",
+      "lang": "ru",
+      "category": "references",
+      "title": "Разведка сцены 2024–2026",
+      "file": "references/scene_2025_2026.md",
+      "tags": [
+        "scene",
+        "research"
+      ]
+    },
+    {
+      "id": "ref-siliconsense-catalog",
+      "lang": "cross",
+      "category": "references",
+      "title": "SiliconSense Artist Catalog",
+      "file": "references/siliconsense_catalog.md",
+      "tags": [
+        "catalog",
+        "865"
+      ]
+    },
+    {
+      "id": "ref-siliconsense-catalog-json",
+      "category": "references",
+      "title": "SiliconSense Artist Catalog (full JSON)",
+      "file": "references/siliconsense_catalog.json",
+      "tags": [
+        "siliconsense",
+        "catalog",
+        "json",
+        "865-artists"
+      ]
+    },
+    {
+      "id": "ref-siliconsense-genre-bpm",
+      "lang": "cross",
+      "category": "references",
+      "title": "SiliconSense Genre→BPM JSON (stub+pointer)",
+      "file": "references/siliconsense_genre_bpm.json",
+      "tags": [
+        "bpm",
+        "genre",
+        "json",
+        "stub"
+      ]
+    },
+    {
+      "id": "ref-index",
+      "lang": "ru",
+      "category": "references",
+      "title": "Артисты и ориентиры",
+      "file": "references/index.md",
+      "tags": [
+        "artists"
+      ]
+    },
+    {
+      "id": "ref-writing-craft",
+      "lang": "en",
+      "category": "references",
+      "title": "Writing Craft Books",
+      "file": "references/writing_craft_books.md",
+      "tags": [
+        "books",
+        "craft"
+      ]
+    },
+    {
+      "id": "cases-index",
+      "lang": "cross",
+      "category": "cases",
+      "title": "Cases index — CW spine + EN/IND lane",
+      "file": "cases/README.md",
+      "tags": [
+        "cases",
+        "coldwave",
+        "en",
+        "ind",
+        "desk"
+      ]
+    },
+    {
+      "id": "case-cw-003",
+      "lang": "ru",
+      "category": "cases",
+      "title": "CW-003 РАЗМОРОЗКА",
+      "file": "cases/CW-003-razmorozka.md",
+      "tags": [
+        "cw-003",
+        "coldwave",
+        "desk"
+      ]
+    },
+    {
+      "id": "case-cw-004",
+      "lang": "ru",
+      "category": "cases",
+      "title": "CW-004 ЧУЖОЙ ЭТАЖ",
+      "file": "cases/CW-004-chuzhoj-etazh.md",
+      "tags": [
+        "cw-004",
+        "coldwave",
+        "desk"
+      ]
+    },
+    {
+      "id": "case-cw-005",
+      "lang": "ru",
+      "category": "cases",
+      "title": "CW-005 СЧЁТЧИК",
+      "file": "cases/CW-005-schetchik.md",
+      "tags": [
+        "cw-005",
+        "coldwave",
+        "desk"
+      ]
+    },
+    {
+      "id": "case-cw-006",
+      "lang": "ru",
+      "category": "cases",
+      "title": "CW-006 ВТОРАЯ СМЕНА",
+      "file": "cases/CW-006-vtoraya-smena.md",
+      "tags": [
+        "cw-006",
+        "coldwave",
+        "desk"
+      ]
+    },
+    {
+      "id": "case-cw-007",
+      "lang": "ru",
+      "category": "cases",
+      "title": "CW-007 КРУГЛОСУТОЧНЫЙ",
+      "file": "cases/CW-007-kruglosutochnyj.md",
+      "tags": [
+        "cw-007",
+        "coldwave",
+        "desk"
+      ]
+    },
+    {
+      "id": "case-cw-008",
+      "lang": "ru",
+      "category": "cases",
+      "title": "CW-008 ПО ТУ СТОРОНУ КАССЫ",
+      "file": "cases/CW-008-po-tu-storonu-kassy.md",
+      "tags": [
+        "cw-008",
+        "coldwave",
+        "desk",
+        "diptych"
+      ]
+    },
+    {
+      "id": "case-cw-009",
+      "lang": "ru",
+      "category": "cases",
+      "title": "CW-009 ДНЕВНОЙ СВЕТ",
+      "file": "cases/CW-009-dnevnoj-svet.md",
+      "tags": [
+        "cw-009",
+        "coldwave",
+        "desk"
+      ]
+    },
+    {
+      "id": "case-cw-010",
+      "lang": "ru",
+      "category": "cases",
+      "title": "CW-010 ОТТЕПЕЛЬ",
+      "file": "cases/CW-010-ottepel.md",
+      "tags": [
+        "cw-010",
+        "coldwave",
+        "desk"
+      ]
+    },
+    {
+      "id": "case-en-001",
+      "lang": "en",
+      "category": "cases",
+      "title": "EN-001 RECEIPT STUCK",
+      "file": "cases/EN-001-receipt-stuck.md",
+      "tags": [
+        "en-001",
+        "industrial",
+        "en",
+        "desk"
+      ]
+    },
+    {
+      "id": "case-en-002",
+      "lang": "en",
+      "category": "cases",
+      "title": "EN-002 BUS WINDOW",
+      "file": "cases/EN-002-bus-window.md",
+      "tags": [
+        "en-002",
+        "post-punk",
+        "en",
+        "desk"
+      ]
+    },
+    {
+      "id": "case-en-003",
+      "lang": "en",
+      "category": "cases",
+      "title": "EN-003 COIN JAR",
+      "file": "cases/EN-003-coin-jar.md",
+      "tags": [
+        "en-003",
+        "post-punk",
+        "en",
+        "desk"
+      ]
+    },
+    {
+      "id": "case-en-004",
+      "lang": "en",
+      "category": "cases",
+      "title": "EN-004 LAUNDROMAT",
+      "file": "cases/EN-004-laundromat.md",
+      "tags": [
+        "en-004",
+        "post-punk",
+        "en",
+        "desk"
+      ]
+    },
+    {
+      "id": "case-en-005",
+      "lang": "en",
+      "category": "cases",
+      "title": "EN-005 PARKING TICKET",
+      "file": "cases/EN-005-parking-ticket.md",
+      "tags": [
+        "en-005",
+        "post-punk",
+        "en",
+        "desk"
+      ]
+    },
+    {
+      "id": "case-en-006",
+      "lang": "en",
+      "category": "cases",
+      "title": "EN-006 VENDING SLOT",
+      "file": "cases/EN-006-vending-slot.md",
+      "tags": [
+        "en-006",
+        "post-punk",
+        "en",
+        "desk"
+      ]
+    },
+    {
+      "id": "case-en-007",
+      "lang": "en",
+      "category": "cases",
+      "title": "EN-007 LOST GLOVE",
+      "file": "cases/EN-007-lost-glove.md",
+      "tags": [
+        "en-007",
+        "post-punk",
+        "en",
+        "desk"
+      ]
+    },
+    {
+      "id": "case-en-008",
+      "lang": "en",
+      "category": "cases",
+      "title": "EN-008 SPARE KEY",
+      "file": "cases/EN-008-spare-key.md",
+      "tags": [
+        "en-008",
+        "post-punk",
+        "en",
+        "desk"
+      ]
+    },
+    {
+      "id": "case-en-009",
+      "lang": "en",
+      "category": "cases",
+      "title": "EN-009 EMPTY CHARGER",
+      "file": "cases/EN-009-empty-charger.md",
+      "tags": [
+        "en-009",
+        "post-punk",
+        "en",
+        "desk"
+      ]
+    },
+    {
+      "id": "case-en-010",
+      "lang": "en",
+      "category": "cases",
+      "title": "EN-010 SECOND CUP",
+      "file": "cases/EN-010-second-cup.md",
+      "tags": [
+        "en-010",
+        "post-punk",
+        "en",
+        "desk"
+      ]
+    },
+    {
+      "id": "case-ind-001",
+      "lang": "en",
+      "category": "cases",
+      "title": "IND-001 THIRD PASS",
+      "file": "cases/IND-001-third-pass.md",
+      "tags": [
+        "ind-001",
+        "neurofunk",
+        "en",
+        "desk"
+      ]
+    },
+    {
+      "id": "case-ind-002",
+      "lang": "en",
+      "category": "cases",
+      "title": "IND-002 KILL THE CREST",
+      "file": "cases/IND-002-kill-the-crest.md",
+      "tags": [
+        "ind-002",
+        "neurofunk",
+        "en",
+        "desk",
+        "diptych"
+      ]
+    }
   ],
-  "count": 82
+  "count": 84
 }

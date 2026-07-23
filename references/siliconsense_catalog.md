@@ -100,6 +100,4 @@ Vocal anchor:
 
 ## Сырые JSON
 
-Полный `siliconsense_catalog.json` (~1.6MB) остаётся в `russian-lyrics-kb/references/` — слишком тяжёлый для дублирования. Меньшие JSON (anchors, behavior tags, genre-bpm, moods, usecases) переносятся отдельно.
-
-Источник-оригинал: https://github.com/AMEOBIUS-space/russian-lyrics-kb/blob/main/references/siliconsense_catalog.json
+Полный `siliconsense_catalog.json` (~1.6MB) — в этом репозитории: [`references/siliconsense_catalog.json`](./siliconsense_catalog.json).

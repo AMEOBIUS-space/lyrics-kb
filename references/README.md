@@ -2,4 +2,4 @@
 
 Источники, разборы песен, примеры для RU и EN.
 
-Перенесено из `russian-lyrics-kb/references`.
+Перенесено из `russian-lyrics-kb` (архив, контент мигрирован)` — `references`.

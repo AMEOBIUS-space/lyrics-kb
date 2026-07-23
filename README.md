@@ -3,7 +3,7 @@
 Общая база знаний по лирике и сонграйтингу — двуязычная (RU + EN), с единым продакшен- и промптинг-слоем.
 
 **Repo:** [AMEOBIUS-space/lyrics-kb](https://github.com/AMEOBIUS-space/lyrics-kb)  
-**Источник RU:** [russian-lyrics-kb](https://github.com/AMEOBIUS-space/russian-lyrics-kb)  
+**Источник RU:** [russian-lyrics-kb](https://github.com/AMEOBIUS-space/russian-lyrics-kb) (archived — all content migrated)  
 **kb_version:** `4.8-lyrics-kb` · **entries:** 82
 
 ## Статус (2026-07-23)
@@ -41,8 +41,8 @@ index.json   journal.jsonl   validate.py
 ## Pointer / large files
 
 - Encyclopedia multipart in-repo; monolith backup SHA `31ed0fef…`
-- `siliconsense_catalog.json` (~1.6MB) → russian-lyrics-kb
-- `siliconsense_genre_bpm.json` → **stub desk** in-repo; **full 420 genres** → [russian-lyrics-kb](https://github.com/AMEOBIUS-space/russian-lyrics-kb/blob/main/references/siliconsense_genre_bpm.json) SHA `65b0b233aa613c4b54b67b302874297b1b9664ce`
+- `siliconsense_catalog.json` (~1.6MB) → **in-repo** `references/`
+- `siliconsense_genre_bpm.json` → **full 420 genres in-repo** `references/`
 
 ## Валидация
 
