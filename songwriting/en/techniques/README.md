@@ -1,11 +1,29 @@
 # Songwriting — EN · Techniques
 
-Craft techniques for generating and sharpening lyrics.
+Craft methods for generating and sharpening English lyrics.
 
-Planned:
+## Files
 
-- **Object writing** — sense-bound timed writing across the seven senses.
-- **Boxes / worksheets** — idea development from title to draft.
-- **Tension & release** — line/section-level expectation management.
-- **Point of view** — first / second / third person, direct address, narrative distance.
-- **Figurative language** — metaphor, simile, metonymy used for compression.
+| File | Topic |
+|---|---|
+| [`object_writing.md`](./object_writing.md) | Timed sense-bound writing (7 senses) |
+| [`boxes_worksheets.md`](./boxes_worksheets.md) | Title / sense / question / contrast boxes |
+| [`tension_and_release.md`](./tension_and_release.md) | Expectation, delay, bridge pressure |
+| [`pov.md`](./pov.md) | Person, distance, address, shifts |
+| [`figurative_language.md`](./figurative_language.md) | Metaphor families, anti-cliché |
+
+## Suggested practice week
+
+| Day | Drill |
+|---|---|
+| Mon | Object writing 10×2 |
+| Tue | Title box + chorus only |
+| Wed | V1/V2 from question box |
+| Thu | Prosody pass on draft |
+| Fri | Tension map + bridge rewrite |
+| Sat | POV shift experiment |
+| Sun | Full song pass + cliché hunt |
+
+## Next
+
+- EN detector: `detector/en/`
