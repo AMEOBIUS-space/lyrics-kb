@@ -4,7 +4,7 @@
 
 **Repo:** [AMEOBIUS-space/lyrics-kb](https://github.com/AMEOBIUS-space/lyrics-kb)  
 **Источник RU:** [russian-lyrics-kb](https://github.com/AMEOBIUS-space/russian-lyrics-kb)  
-**kb_version:** `4.3-lyrics-kb` · **entries:** 77
+**kb_version:** `4.4-lyrics-kb` · **entries:** 78
 
 ## Статус (2026-07-23)
 
@@ -19,7 +19,7 @@
 | 7. Encyclopedia multipart | ✅ `parts/part_01`…`part_17` |
 | 8. CW case cards | ✅ 003–010 full desk |
 | 9. genre_bpm JSON | ✅ stub desk + pointer → full source |
-| 10. EN desk cases | ✅ EN-001…005 |
+| 10. EN desk cases | ✅ EN-001…006 |
 | 11. IND desk cases | ✅ IND-001 + IND-002 diptych |
 
 ## Структура
@@ -28,7 +28,7 @@
 songwriting/ru|en|cross/
 detector/ru|en/
 production/  suno/  genres/  vocals/
-references/  cases/   # CW-003…010 · EN-001…005 · IND-001/002
+references/  cases/   # CW-003…010 · EN-001…006 · IND-001/002
 index.json   journal.jsonl   validate.py
 ```
 
