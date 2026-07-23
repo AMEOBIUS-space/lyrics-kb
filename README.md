@@ -4,7 +4,7 @@
 
 **Repo:** [AMEOBIUS-space/lyrics-kb](https://github.com/AMEOBIUS-space/lyrics-kb)  
 **Источник RU:** [russian-lyrics-kb](https://github.com/AMEOBIUS-space/russian-lyrics-kb)  
-**kb_version:** `3.2-lyrics-kb` · **entries:** 61
+**kb_version:** `3.2-lyrics-kb` · **entries:** 61 · tip `cfcd6b3`
 
 ## Статус (2026-07-23)
 
@@ -16,13 +16,15 @@
 | 4. EN-детектор | ✅ patterns · whitelist · scoring · cliché rhymes |
 | 5. Sound corpus + EN craft | ✅ `references/sound_corpus.md` · `songwriting/en/EN_CRAFT_LAYER.md` |
 | 6. EN golden + cross | ✅ EG-01..14 · `songwriting/cross/*` |
-| 7. Encyclopedia multipart | 🟡 hub + part_01/02/17; остальные части + genre_bpm JSON — in progress |
+| 7. Encyclopedia multipart | ✅ hub + `parts/part_01`…`part_17` |
+| 8. genre_bpm JSON | 🟡 stub ключевых жанров; full → source SHA `65b0b233…` |
+| 9. CW-003..010 case cards | ⏳ pending |
 
 ## Структура
 
 ```
 songwriting/
-  ru/                 # encyclopedia hub + parts/, modern, lyrics, demo EP
+  ru/                 # encyclopedia hub + parts/01–17, modern, lyrics, demo EP
   en/theory/          # prosody, rhyme, structure, hooks, meter
   en/techniques/      # object writing, boxes, tension, POV, figurative
   en/EN_CRAFT_LAYER.md
@@ -42,16 +44,16 @@ validate.py
 
 ## Пайплайны
 
-**RU lyric:** encyclopedia → detector RU → genre playbook → score → REPAIR  
+**RU lyric:** encyclopedia parts → detector RU → genre playbook → score → REPAIR  
 **EN lyric:** EN craft layer → theory/techniques → detector EN → score E1–E12 → REPAIR  
 **Generate:** suno prompts + anchors + behavior tags → procedures → production  
 **Sound:** sound corpus fail_modes → EQ/mix lessons → package patch
 
 ## Крупные / pointer-файлы
 
-- `songwriting/ru/encyclopedia.md` → multipart `parts/` + monolith в russian-lyrics-kb (SHA `31ed0fef…`)
+- `songwriting/ru/encyclopedia.md` → multipart `parts/part_01`…`part_17` (+ monolith backup SHA `31ed0fef…`)
 - `references/siliconsense_catalog.json` (~1.6MB) → russian-lyrics-kb
-- `references/siliconsense_genre_bpm.json` → push in progress (source SHA `65b0b233…`)
+- `references/siliconsense_genre_bpm.json` → stub in-repo; full SHA `65b0b233…` in source
 
 ## Валидация
 
