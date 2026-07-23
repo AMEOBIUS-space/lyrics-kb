@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "kb_version": "4.8-lyrics-kb",
+  "kb_version": "4.9-lyrics-kb",
   "created": "2026-07-23",
   "updated": "2026-07-23",
-  "description": "Общая база знаний lyrics-kb: RU + EN theory/techniques/detector + craft/cross + sound corpus + CW 001–010 + EN-001…010 + IND-001/002 + production/suno; genre_bpm stub+pointer",
+  "description": "Общая база знаний lyrics-kb (self-contained): RU + EN theory/techniques/detector + craft/cross + sound corpus + CW 001–010 + EN-001…010 + IND-001/002 + production/suno; все heavy-файлы (catalog/genre_bpm/moods/usecases) in-repo",
   "languages": [
     "ru",
     "en",
@@ -712,13 +712,13 @@
       "id": "ref-siliconsense-genre-bpm",
       "lang": "cross",
       "category": "references",
-      "title": "SiliconSense Genre→BPM JSON (stub+pointer)",
+      "title": "SiliconSense Genre→BPM JSON (full 420 genres)",
       "file": "references/siliconsense_genre_bpm.json",
       "tags": [
         "bpm",
         "genre",
         "json",
-        "stub"
+        "full-420"
       ]
     },
     {
