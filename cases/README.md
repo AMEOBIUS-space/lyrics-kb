@@ -15,12 +15,10 @@ Working cases for the ameobius desk. Sound-closed rows also live in `references/
 | CW-007 | КРУГЛОСУТОЧНЫЙ | 8.2 | 96 | desk gen | [CW-007-kruglosutochnyj.md](./CW-007-kruglosutochnyj.md) |
 | CW-008 | ПО ТУ СТОРОНУ КАССЫ | 8.2 | 94 | desk gen (♀ one-off) | [CW-008-po-tu-storonu-kassy.md](./CW-008-po-tu-storonu-kassy.md) |
 | CW-009 | ДНЕВНОЙ СВЕТ | 8.2 | 104 | desk gen | [CW-009-dnevnoj-svet.md](./CW-009-dnevnoj-svet.md) |
-| CW-010 | ОТТЕПЕЛЬ | — | — | **seed** | [CW-010-ottepel-seed.md](./CW-010-ottepel-seed.md) |
+| CW-010 | ОТТЕПЕЛЬ | 8.2 | 100 | desk gen | [CW-010-ottepel.md](./CW-010-ottepel.md) |
 | CW-011 | ТИШИНА 2.0 | — | — | sound **closed** | sound corpus |
 | CW-013 | ЧУЖОЙ ЭТАЖ (sound) | — | — | sound **closed** | sound corpus |
 | CW-014 | СЧЁТЧИК ИДЁТ (sound) | — | — | sound **closed** | sound corpus |
-
-Legacy stubs file (superseded for 006–010): `CW-006-010-stubs.md`
 
 ## Series lessons (apply to every new CW gen)
 
@@ -35,6 +33,7 @@ Legacy stubs file (superseded for 006–010): `CW-006-010-stubs.md`
 - ≥2 Style slots change per track from CW-010 rule; core locked
 - Male husky canon default; POV/gender break only spot (CW-008 lesson)
 - Speak-aloud naturalness + premise logic pass (CW-009)
+- Register move after earned warm day: thaw night, not spring-pop brighten (CW-010)
 
 ## IND lane
 
