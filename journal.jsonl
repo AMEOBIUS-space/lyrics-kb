@@ -5,4 +5,5 @@
 {"date": "2026-07-23", "agent": "eni", "action": "en-detector", "summary": "EN detector 1.0: patterns E01–E20, whitelist W1–W6, scoring E1–E12, cliche rhymes"}
 {"date": "2026-07-23", "agent": "eni", "action": "sound-corpus-en-craft", "summary": "Added references/sound_corpus.md (v0.1), songwriting/en/EN_CRAFT_LAYER.md, encyclopedia multipart hub."}
 {"date": "2026-07-23", "agent": "eni", "action": "en-golden-cross", "summary": "EN golden corpus EG-01..14; songwriting/cross narrative_arc + topline_phrasing."}
-{"date": "2026-07-23", "agent": "eni", "action": "index-3.2", "summary": "index.json → 3.2-lyrics-kb, 61 entries; README status table; encyclopedia parts 01/02/17 seeded."}
+{"date": "2026-07-23", "agent": "eni", "action": "index-3.2", "summary": "index.json → 3.2-lyrics-kb, 61 entries; README status table; encyclopedia parts 01–10,15,17 + genre_bpm stub."}
+{"date": "2026-07-23", "agent": "eni", "action": "enc-multipart-progress", "summary": "Encyclopedia parts 01-10,15,17 pushed; 11-14,16 remaining (monolith SHA 31ed0fef still canonical for §§24-30). genre_bpm stub + md pointer."}
