@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "kb_version": "4.5-lyrics-kb",
+  "kb_version": "4.6-lyrics-kb",
   "created": "2026-07-23",
   "updated": "2026-07-23",
-  "description": "Общая база знаний lyrics-kb: RU + EN theory/techniques/detector + craft/cross + sound corpus + CW 001–010 + EN-001…007 + IND-001/002 + production/suno; genre_bpm stub+pointer",
+  "description": "Общая база знаний lyrics-kb: RU + EN theory/techniques/detector + craft/cross + sound corpus + CW 001–010 + EN-001…008 + IND-001/002 + production/suno; genre_bpm stub+pointer",
   "languages": ["ru", "en", "cross"],
   "categories": ["songwriting", "detector", "production", "suno", "references", "genres", "vocals", "cases"],
   "sources": {
@@ -91,8 +91,9 @@
     {"id": "case-en-005", "lang": "en", "category": "cases", "title": "EN-005 PARKING TICKET", "file": "cases/EN-005-parking-ticket.md", "tags": ["en-005", "post-punk", "en", "desk"]},
     {"id": "case-en-006", "lang": "en", "category": "cases", "title": "EN-006 VENDING SLOT", "file": "cases/EN-006-vending-slot.md", "tags": ["en-006", "post-punk", "en", "desk"]},
     {"id": "case-en-007", "lang": "en", "category": "cases", "title": "EN-007 LOST GLOVE", "file": "cases/EN-007-lost-glove.md", "tags": ["en-007", "post-punk", "en", "desk"]},
+    {"id": "case-en-008", "lang": "en", "category": "cases", "title": "EN-008 SPARE KEY", "file": "cases/EN-008-spare-key.md", "tags": ["en-008", "post-punk", "en", "desk"]},
     {"id": "case-ind-001", "lang": "en", "category": "cases", "title": "IND-001 THIRD PASS", "file": "cases/IND-001-third-pass.md", "tags": ["ind-001", "neurofunk", "en", "desk"]},
     {"id": "case-ind-002", "lang": "en", "category": "cases", "title": "IND-002 KILL THE CREST", "file": "cases/IND-002-kill-the-crest.md", "tags": ["ind-002", "neurofunk", "en", "desk", "diptych"]}
   ],
-  "count": 79
+  "count": 80
 }
