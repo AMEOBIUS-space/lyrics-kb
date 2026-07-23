@@ -2,34 +2,49 @@
 
 Общая база знаний по лирике и сонграйтингу — двуязычная (RU + EN), с единым продакшен- и промптинг-слоем.
 
+**Repo:** [AMEOBIUS-space/lyrics-kb](https://github.com/AMEOBIUS-space/lyrics-kb)  
+**Источник RU:** [russian-lyrics-kb](https://github.com/AMEOBIUS-space/russian-lyrics-kb) (archived as source, not deleted)
+
+## Статус (2026-07-23)
+
+| Этап | Статус |
+|---|---|
+| 1. Перенос RU-базы | ✅ done (40 entries indexed) |
+| 2. EN-теория | 🔜 next |
+| 3. EN-техники | pending |
+| 4. EN-детектор | pending |
+
 ## Структура
 
 ```
 songwriting/
-  ru/          # русскоязычная школа: энциклопедия, сленг, пантеон
-  en/          # англоязычная школа: prosody, rhyme, structure, techniques
-  cross/       # язык-нейтральное: нарратив, образность, топлайн, POV
+  ru/          # энциклопедия, modern lyrics, pipeline demo
+  en/theory/   # prosody, rhyme, structure (next)
+  en/techniques/
+  cross/
 detector/
-  ru/          # анти-AI-слоп паттерны для RU
-  en/          # анти-AI-слоп паттерны для EN
-production/    # язык-нейтрально: mixing, mastering, sound design, EQ
-suno/          # промптинг и генерация (Suno и др.)
-references/    # источники, разборы, примеры
-index.json     # единый индекс всех записей
-journal.jsonl  # журнал изменений (по записи на каждый заход)
+  ru/  ·  en/
+production/    # mixing, mastering, coldwave, opendaw, post-master
+suno/          # prompts, v5.5, anchors, behavior tags, procedures
+genres/        # folk-horror, darksynth, cloud-bedroom playbooks
+vocals/
+references/    # pantheon, scene, golden corpus, SiliconSense
+index.json     # 40 entries, lang: ru|en|cross
+journal.jsonl
+validate.py
 ```
 
-## Принципы
+## Валидация
 
-- **Языковые ветки.** Всё, что зависит от языка (рифма, просодия, сленг, детектор), живёт под `ru/` или `en/`.
-- **Общий слой.** Продакшен, промптинг и нарративные приёмы — язык-нейтральны, лежат вне языковых веток.
-- **Единый индекс.** Каждая запись регистрируется в `index.json` с полем `lang: ru | en | cross`.
-- **Журнал.** Каждый значимый заход — строка в `journal.jsonl`.
+```bash
+python3 validate.py
+```
 
-## Майлстоуны
+## Крупные файлы (pointer)
 
-- [ ] Перенести RU-контент из `russian-lyrics-kb` в `songwriting/ru/` и `detector/ru/`
-- [ ] EN: prosody + rhyme types + song structure (теория)
-- [ ] EN: techniques (object writing, boxes, tension & release, POV)
-- [ ] EN-детектор AI-слопа
-- [ ] Общий production-слой
+- `songwriting/ru/encyclopedia.md` → полный текст в russian-lyrics-kb (SHA `31ed0fef…`)
+- `references/siliconsense_catalog.json` (~1.6MB) → остаётся в russian-lyrics-kb
+
+## Лицензия
+
+CC BY-NC 4.0
