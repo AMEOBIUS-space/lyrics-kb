@@ -14,13 +14,9 @@ English-language songwriting theory (Pattison / Berklee lineage and working pop 
 
 ## Reading order
 
-1. Prosody (foundation)
-2. Rhyme
-3. Meter & phrasing
-4. Song structure
-5. Hooks & titles
+1. Prosody → 2. Rhyme → 3. Meter → 4. Structure → 5. Hooks
 
-## Next
+## Related
 
-- Techniques: `songwriting/en/techniques/` (object writing, boxes, tension & release, POV)
-- Detector EN: `detector/en/`
+- Techniques: `../techniques/`
+- Detector EN: `../../../detector/en/`
