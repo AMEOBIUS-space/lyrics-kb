@@ -1,8 +1,9 @@
 {
   "schema_version": "1.0",
-  "kb_version": "3.0-lyrics-kb",
+  "kb_version": "3.1-lyrics-kb",
   "created": "2026-07-23",
-  "description": "Общая база знаний lyrics-kb: RU (migrated from russian-lyrics-kb) + EN (in progress) + language-neutral production/suno",
+  "updated": "2026-07-23",
+  "description": "Общая база знаний lyrics-kb: RU (from russian-lyrics-kb) + EN theory/techniques/detector + language-neutral production/suno",
   "languages": ["ru", "en", "cross"],
   "categories": ["songwriting", "detector", "production", "suno", "references", "genres", "vocals"],
   "sources": {
@@ -16,7 +17,22 @@
     {"id": "song-modern-russian", "lang": "ru", "category": "songwriting", "title": "Современная русская лирика: голос и стиль", "file": "songwriting/ru/modern_russian_lyrics.md", "tags": ["lyrics", "russian", "pantheon"]},
     {"id": "song-lyrics", "lang": "ru", "category": "songwriting", "title": "Лирика и структура", "file": "songwriting/ru/lyrics.md", "tags": ["structure", "hook", "anti-ai"]},
     {"id": "song-pipeline-demo-ep", "lang": "ru", "category": "songwriting", "title": "Мини-EP «Лёд не встал»", "file": "songwriting/ru/pipeline_demo_ep.md", "tags": ["demo", "folk-horror", "pipeline"]},
+    {"id": "en-prosody", "lang": "en", "category": "songwriting", "title": "EN Theory: Prosody", "file": "songwriting/en/theory/prosody.md", "tags": ["prosody", "stress", "en"]},
+    {"id": "en-rhyme", "lang": "en", "category": "songwriting", "title": "EN Theory: Rhyme types", "file": "songwriting/en/theory/rhyme.md", "tags": ["rhyme", "en"]},
+    {"id": "en-structure", "lang": "en", "category": "songwriting", "title": "EN Theory: Song structure", "file": "songwriting/en/theory/song_structure.md", "tags": ["structure", "en"]},
+    {"id": "en-hooks", "lang": "en", "category": "songwriting", "title": "EN Theory: Hooks & titles", "file": "songwriting/en/theory/hooks_and_titles.md", "tags": ["hooks", "title", "en"]},
+    {"id": "en-meter", "lang": "en", "category": "songwriting", "title": "EN Theory: Meter & phrasing", "file": "songwriting/en/theory/meter_phrasing.md", "tags": ["meter", "phrasing", "en"]},
+    {"id": "en-object-writing", "lang": "en", "category": "songwriting", "title": "EN Technique: Object writing", "file": "songwriting/en/techniques/object_writing.md", "tags": ["object-writing", "senses", "en"]},
+    {"id": "en-boxes", "lang": "en", "category": "songwriting", "title": "EN Technique: Boxes / worksheets", "file": "songwriting/en/techniques/boxes_worksheets.md", "tags": ["boxes", "worksheet", "en"]},
+    {"id": "en-tension", "lang": "en", "category": "songwriting", "title": "EN Technique: Tension & release", "file": "songwriting/en/techniques/tension_and_release.md", "tags": ["tension", "en"]},
+    {"id": "en-pov", "lang": "en", "category": "songwriting", "title": "EN Technique: Point of view", "file": "songwriting/en/techniques/pov.md", "tags": ["pov", "en"]},
+    {"id": "en-figurative", "lang": "en", "category": "songwriting", "title": "EN Technique: Figurative language", "file": "songwriting/en/techniques/figurative_language.md", "tags": ["metaphor", "en"]},
     {"id": "detector-ru", "lang": "ru", "category": "detector", "title": "Detector RU — точка входа", "file": "detector/ru/README.md", "tags": ["detector", "ai-slop"]},
+    {"id": "detector-en", "lang": "en", "category": "detector", "title": "Detector EN 1.0 — entry", "file": "detector/en/README.md", "tags": ["detector", "en"]},
+    {"id": "detector-en-patterns", "lang": "en", "category": "detector", "title": "EN patterns E01–E20", "file": "detector/en/patterns.md", "tags": ["patterns", "en"]},
+    {"id": "detector-en-whitelist", "lang": "en", "category": "detector", "title": "EN whitelist W1–W6", "file": "detector/en/whitelist.md", "tags": ["whitelist", "en"]},
+    {"id": "detector-en-scoring", "lang": "en", "category": "detector", "title": "EN scoring E1–E12", "file": "detector/en/scoring.md", "tags": ["scoring", "en"]},
+    {"id": "detector-en-cliches", "lang": "en", "category": "detector", "title": "EN cliché rhyme hotlist", "file": "detector/en/cliche_rhymes.md", "tags": ["rhyme", "cliche", "en"]},
     {"id": "prod-mixing", "lang": "cross", "category": "production", "title": "Сведение", "file": "production/mixing.md", "tags": ["mixing", "eq"]},
     {"id": "prod-mastering", "lang": "cross", "category": "production", "title": "Мастеринг", "file": "production/mastering.md", "tags": ["mastering", "lufs"]},
     {"id": "prod-coldwave", "lang": "cross", "category": "production", "title": "Coldwave 7-stem mix", "file": "production/coldwave_mix_mastering.md", "tags": ["coldwave", "opendaw"]},
@@ -53,5 +69,5 @@
     {"id": "ref-index", "lang": "ru", "category": "references", "title": "Артисты и ориентиры", "file": "references/index.md", "tags": ["artists"]},
     {"id": "ref-writing-craft", "lang": "en", "category": "references", "title": "Writing Craft Books", "file": "references/writing_craft_books.md", "tags": ["books", "craft"]}
   ],
-  "count": 40
+  "count": 54
 }
