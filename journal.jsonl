@@ -8,3 +8,4 @@
 {"date": "2026-07-23", "agent": "eni", "action": "enc-multipart-complete", "summary": "Encyclopedia parts 01–17 complete"}
 {"date": "2026-07-23", "agent": "eni", "action": "cases-cw-batch", "summary": "cases CW-003/004/005 + stubs"}
 {"date": "2026-07-23", "agent": "eni", "action": "cases-cw-006-010", "summary": "CW-006..009 full desk cards + CW-010 seed; index 3.4 count 70"}
+{"date": "2026-07-23", "agent": "eni", "action": "genre-bpm-pointer", "summary": "genre_bpm: keep desk stub in lyrics-kb; full 420 genres stay in russian-lyrics-kb SHA 65b0b233; kb 3.5 pointer strategy"}

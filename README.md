@@ -4,7 +4,7 @@
 
 **Repo:** [AMEOBIUS-space/lyrics-kb](https://github.com/AMEOBIUS-space/lyrics-kb)  
 **Источник RU:** [russian-lyrics-kb](https://github.com/AMEOBIUS-space/russian-lyrics-kb)  
-**kb_version:** `3.4-lyrics-kb` · **entries:** 70
+**kb_version:** `3.5-lyrics-kb` · **entries:** 70
 
 ## Статус (2026-07-23)
 
@@ -18,7 +18,7 @@
 | 6. EN golden + cross | ✅ |
 | 7. Encyclopedia multipart | ✅ `parts/part_01`…`part_17` |
 | 8. CW case cards | ✅ 003–009 full · 010 seed |
-| 9. genre_bpm JSON | 🟡 stub; full → source `65b0b233…` |
+| 9. genre_bpm JSON | ✅ stub desk + pointer → full source |
 
 ## Структура
 
@@ -40,7 +40,7 @@ index.json   journal.jsonl   validate.py
 
 - Encyclopedia multipart in-repo; monolith backup SHA `31ed0fef…`
 - `siliconsense_catalog.json` (~1.6MB) → russian-lyrics-kb
-- `siliconsense_genre_bpm.json` → stub here; full in source
+- `siliconsense_genre_bpm.json` → **stub desk** in-repo; **full 420 genres** → [russian-lyrics-kb](https://github.com/AMEOBIUS-space/russian-lyrics-kb/blob/main/references/siliconsense_genre_bpm.json) SHA `65b0b233aa613c4b54b67b302874297b1b9664ce`
 
 ## Валидация
 
