@@ -1,54 +1,24 @@
 # Энциклопедия русскоязычной лирики и сонграйтинга (v2.0)
 
-Полный рабочий справочник (30 разделов, ~3000 строк).
+Полный рабочий справочник (30 разделов). Разбит на части из‑за размера API-push.
 
-> **Полный текст:** [`russian-lyrics-kb/songwriting/encyclopedia.md`](https://github.com/AMEOBIUS-space/russian-lyrics-kb/blob/main/songwriting/encyclopedia.md)  
-> SHA blob: `31ed0fef97e424cf720cc5b6f4e8f6905e536cf8`  
-> Причина pointer-файла: размер ~179KB — бинарный лифт через API в этом прогоне; содержимое идентично источнику.
+| Часть | Файл | Содержание |
+|---|---|---|
+| 1 | [parts/encyclopedia_p1.md](./parts/encyclopedia_p1.md) | Принципы → синтаксис (§0–6) |
+| 2 | [parts/encyclopedia_p2.md](./parts/encyclopedia_p2.md) | Голос → explicit (§7–14) |
+| 3 | [parts/encyclopedia_p3.md](./parts/encyclopedia_p3.md) | Сленг → AI-карта (§15–22) |
+| 4 | [parts/encyclopedia_p4.md](./parts/encyclopedia_p4.md) | Деревья → JSON/scoring (§23–30) |
 
-## Оглавление
-
-0. Принципы
-1. Пантеон
-2. Метрика и ритмика
-3. Рифма
-4. Структура песни
-5. Образная система
-6. Синтаксис лирики
-7. Голос лирического героя
-8. Регистровый контраст
-9. Эстетика уродливого и телесный код
-10. Звукопись и фонетика
-11. Интертекстуальность и миф
-12. Жанровые спецификации
-13. Хук и припев
-14. Тёмная и explicit-лирика
-15. Сленг-словарь по жанрам
-16. Анти-AI-словарь
-17. Пайплайн написания
-18. Калибровка по авторам
-19. Разборы треков
-20. Чек-листы
-21. Упражнения
-22. AI-операционная карта
-23. Деревья решений
-24. Векторы стиля
-25. Паттерны детекции (Детектор 2.0 — 25 паттернов)
-26. Правила трансформации
-27. Шаблоны генерации
-28. Функция оценки (P1–P12)
-29. Промпт-скаффолды
-30. Машинно-читаемые блоки (JSON/YAML)
+> Полный monolithic blob (идентичный): [`russian-lyrics-kb` …/encyclopedia.md](https://github.com/AMEOBIUS-space/russian-lyrics-kb/blob/main/songwriting/encyclopedia.md) · SHA `31ed0fef97e424cf720cc5b6f4e8f6905e536cf8`
 
 ## Ключевые блоки (quick ref)
 
-**Детектор 2.0:** 25 паттернов AI-маркеров с весами, hard-fail (вес 2.0 → cap SUSPECT), white-list 25.27 (причитное усечение, припев-формула с накоплением).
+**Детектор 2.0:** 25 паттернов, hard-fail, white-list 25.27 → см. p4 + `detector/ru/`
 
-**Scoring 2.0:** P1 concreteness · P2 rhythm_variance · P3 rhyme_quality · P4 register_contrast · P5 body_code · P6 ugly_aesthetics · P7 phonetics · P8 hook_strength · P9 voice_embodiment · P10 anti_ai_clean · P11 singability · P12 cohesion. Порог GOOD ≥ 7.0.
+**Scoring 2.0:** P1–P12, порог GOOD ≥ 7.0 → p4 §28
 
-**Связанные файлы в lyrics-kb:**
-- `detector/ru/README.md` — точка входа детектора
-- `references/golden_corpus.md` — 14 регрессионных кейсов
-- `references/pantheon_v2.md` — апдейт пантеона
-- `songwriting/ru/modern_russian_lyrics.md` — голос и стиль
-- `songwriting/ru/pipeline_demo_ep.md` — прогон EP
+**Связанные:**
+- `references/golden_corpus.md` — 14 lyric regression cases
+- `references/sound_corpus.md` — sound cases (CW/IND)
+- `references/pantheon_v2.md`
+- `songwriting/ru/modern_russian_lyrics.md`
