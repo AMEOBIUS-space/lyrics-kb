@@ -1,0 +1,7 @@
+{
+  "schema_version": "1.0",
+  "description": "Единый индекс записей lyrics-kb. Каждая запись: id, title, lang (ru|en|cross), category, path, tags.",
+  "languages": ["ru", "en", "cross"],
+  "categories": ["songwriting", "detector", "production", "suno", "references"],
+  "entries": []
+}

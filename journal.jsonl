@@ -1,0 +1,1 @@
+{"date": "2026-07-23", "agent": "eni", "action": "bootstrap", "summary": "Создан общий репо lyrics-kb: двуязычный скелет (RU/EN), язык-нейтральный production/suno слой, единый index.json и journal.jsonl"}
