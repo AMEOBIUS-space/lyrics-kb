@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "kb_version": "3.3-lyrics-kb",
+  "kb_version": "3.4-lyrics-kb",
   "created": "2026-07-23",
   "updated": "2026-07-23",
-  "description": "Общая база знаний lyrics-kb: RU + EN theory/techniques/detector + craft/cross + sound corpus + CW cases + language-neutral production/suno",
+  "description": "Общая база знаний lyrics-kb: RU + EN theory/techniques/detector + craft/cross + sound corpus + CW cases 001–010 + language-neutral production/suno",
   "languages": ["ru", "en", "cross"],
   "categories": ["songwriting", "detector", "production", "suno", "references", "genres", "vocals", "cases"],
   "sources": {
@@ -79,7 +79,11 @@
     {"id": "case-cw-003", "lang": "ru", "category": "cases", "title": "CW-003 РАЗМОРОЗКА", "file": "cases/CW-003-razmorozka.md", "tags": ["cw-003", "coldwave", "desk"]},
     {"id": "case-cw-004", "lang": "ru", "category": "cases", "title": "CW-004 ЧУЖОЙ ЭТАЖ", "file": "cases/CW-004-chuzhoj-etazh.md", "tags": ["cw-004", "coldwave", "desk"]},
     {"id": "case-cw-005", "lang": "ru", "category": "cases", "title": "CW-005 СЧЁТЧИК", "file": "cases/CW-005-schetchik.md", "tags": ["cw-005", "coldwave", "desk"]},
-    {"id": "case-cw-006-010-stubs", "lang": "ru", "category": "cases", "title": "CW-006…010 stubs", "file": "cases/CW-006-010-stubs.md", "tags": ["cw", "stubs", "coldwave"]}
+    {"id": "case-cw-006", "lang": "ru", "category": "cases", "title": "CW-006 ВТОРАЯ СМЕНА", "file": "cases/CW-006-vtoraya-smena.md", "tags": ["cw-006", "coldwave", "desk"]},
+    {"id": "case-cw-007", "lang": "ru", "category": "cases", "title": "CW-007 КРУГЛОСУТОЧНЫЙ", "file": "cases/CW-007-kruglosutochnyj.md", "tags": ["cw-007", "coldwave", "desk"]},
+    {"id": "case-cw-008", "lang": "ru", "category": "cases", "title": "CW-008 ПО ТУ СТОРОНУ КАССЫ", "file": "cases/CW-008-po-tu-storonu-kassy.md", "tags": ["cw-008", "coldwave", "desk", "diptych"]},
+    {"id": "case-cw-009", "lang": "ru", "category": "cases", "title": "CW-009 ДНЕВНОЙ СВЕТ", "file": "cases/CW-009-dnevnoj-svet.md", "tags": ["cw-009", "coldwave", "desk"]},
+    {"id": "case-cw-010-seed", "lang": "ru", "category": "cases", "title": "CW-010 ОТТЕПЕЛЬ (seed)", "file": "cases/CW-010-ottepel-seed.md", "tags": ["cw-010", "seed", "coldwave"]}
   ],
-  "count": 66
+  "count": 70
 }

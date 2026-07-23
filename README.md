@@ -4,7 +4,7 @@
 
 **Repo:** [AMEOBIUS-space/lyrics-kb](https://github.com/AMEOBIUS-space/lyrics-kb)  
 **Источник RU:** [russian-lyrics-kb](https://github.com/AMEOBIUS-space/russian-lyrics-kb)  
-**kb_version:** `3.3-lyrics-kb` · **entries:** 66
+**kb_version:** `3.4-lyrics-kb` · **entries:** 70
 
 ## Статус (2026-07-23)
 
@@ -17,7 +17,7 @@
 | 5. Sound corpus + EN craft | ✅ |
 | 6. EN golden + cross | ✅ |
 | 7. Encyclopedia multipart | ✅ `parts/part_01`…`part_17` |
-| 8. CW case cards | 🟡 003–005 full · 006–010 stubs |
+| 8. CW case cards | ✅ 003–009 full · 010 seed |
 | 9. genre_bpm JSON | 🟡 stub; full → source `65b0b233…` |
 
 ## Структура
@@ -26,7 +26,7 @@
 songwriting/ru|en|cross/
 detector/ru|en/
 production/  suno/  genres/  vocals/
-references/  cases/   # CW spine + sound lessons
+references/  cases/   # CW-003…010 + series lessons
 index.json   journal.jsonl   validate.py
 ```
 
