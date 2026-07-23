@@ -79,6 +79,7 @@ Coldwave gens системно тёмные (thin_high/thin_low). Почти в�
 ### IND-001 — THIRD PASS ⏳ PENDING_GENERATION
 - lane: industrial / neurofunk · 140 BPM · F minor
 - lyrics score: 8.4 EXCELLENT
+- lyrics card: `cases/IND-001-third-pass.md`
 - note: coldwave EQ-патч (+4@3k) не брать вслепую
 
 ### IND-002 — KILL THE CREST ⏳ PENDING_GENERATION
