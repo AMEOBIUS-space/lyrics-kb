@@ -28,6 +28,7 @@ Working cases for the ameobius desk. Sound-closed rows also live in `references/
 | EN-002 | BUS WINDOW | 8.2 | 112 | desk gen | [EN-002-bus-window.md](./EN-002-bus-window.md) |
 | EN-003 | COIN JAR | 8.2 | 108 | desk gen | [EN-003-coin-jar.md](./EN-003-coin-jar.md) |
 | EN-004 | LAUNDROMAT | 8.1 | 104 | desk gen | [EN-004-laundromat.md](./EN-004-laundromat.md) |
+| EN-005 | PARKING TICKET | 8.1 | 100 | desk gen | [EN-005-parking-ticket.md](./EN-005-parking-ticket.md) |
 | IND-001 | THIRD PASS | 8.4 | 140 | desk gen · sound pending | [IND-001-third-pass.md](./IND-001-third-pass.md) |
 | IND-002 | KILL THE CREST | 8.3 | 134 | desk gen · sound pending | [IND-002-kill-the-crest.md](./IND-002-kill-the-crest.md) |
 
@@ -48,11 +49,11 @@ Working cases for the ameobius desk. Sound-closed rows also live in `references/
 
 ## EN / IND lessons
 
-- Card note `Lang: EN`; craft micro-scaffold on card (EN-001..004, IND-001/002)
+- Card note `Lang: EN`; craft micro-scaffold on card (EN-001..005, IND-001/002)
 - Do **not** auto-port coldwave EQ into IND gens
 - Anti-slop banks: therapy outro, pop-AI glue, cheap rhyme pairs, industrial cyber stamps
 - YOU must act once (EN-001+)
 - Outro = fact or action — no comfort lexicon
 - IND fail_modes prefix `IND-*` in sound corpus
 - IND-001→002 diptych: procedure pass → crest/kill peak (closed on desk)
-- EN-002 transit · EN-003 kitchen money · EN-004 public laundry residual object
+- EN-002 transit · EN-003 kitchen money · EN-004 laundry · EN-005 municipal fine object
