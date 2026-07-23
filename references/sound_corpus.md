@@ -85,4 +85,5 @@ Coldwave gens системно тёмные (thin_high/thin_low). Почти в�
 ### IND-002 — KILL THE CREST ⏳ PENDING_GENERATION
 - lane: industrial / neurofunk · 134 BPM · C# minor
 - lyrics score: 8.3 EXCELLENT
+- lyrics card: `cases/IND-002-kill-the-crest.md`
 - diptych after IND-001
