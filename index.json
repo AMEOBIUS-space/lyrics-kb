@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "kb_version": "3.1-lyrics-kb",
+  "kb_version": "3.2-lyrics-kb",
   "created": "2026-07-23",
   "updated": "2026-07-23",
-  "description": "Общая база знаний lyrics-kb: RU (from russian-lyrics-kb) + EN theory/techniques/detector + language-neutral production/suno",
+  "description": "Общая база знаний lyrics-kb: RU + EN theory/techniques/detector + craft/cross + sound corpus + language-neutral production/suno",
   "languages": ["ru", "en", "cross"],
   "categories": ["songwriting", "detector", "production", "suno", "references", "genres", "vocals"],
   "sources": {
@@ -13,7 +13,7 @@
     "discord_producers": {"guild": "1506284805464260648", "name": "Producers"}
   },
   "entries": [
-    {"id": "song-encyclopedia", "lang": "ru", "category": "songwriting", "title": "Энциклопедия русскоязычной лирики v2.0", "file": "songwriting/ru/encyclopedia.md", "tags": ["encyclopedia", "detector", "scoring", "ru"]},
+    {"id": "song-encyclopedia", "lang": "ru", "category": "songwriting", "title": "Энциклопедия русскоязычной лирики v2.0 (multipart hub)", "file": "songwriting/ru/encyclopedia.md", "tags": ["encyclopedia", "detector", "scoring", "ru"]},
     {"id": "song-modern-russian", "lang": "ru", "category": "songwriting", "title": "Современная русская лирика: голос и стиль", "file": "songwriting/ru/modern_russian_lyrics.md", "tags": ["lyrics", "russian", "pantheon"]},
     {"id": "song-lyrics", "lang": "ru", "category": "songwriting", "title": "Лирика и структура", "file": "songwriting/ru/lyrics.md", "tags": ["structure", "hook", "anti-ai"]},
     {"id": "song-pipeline-demo-ep", "lang": "ru", "category": "songwriting", "title": "Мини-EP «Лёд не встал»", "file": "songwriting/ru/pipeline_demo_ep.md", "tags": ["demo", "folk-horror", "pipeline"]},
@@ -27,6 +27,10 @@
     {"id": "en-tension", "lang": "en", "category": "songwriting", "title": "EN Technique: Tension & release", "file": "songwriting/en/techniques/tension_and_release.md", "tags": ["tension", "en"]},
     {"id": "en-pov", "lang": "en", "category": "songwriting", "title": "EN Technique: Point of view", "file": "songwriting/en/techniques/pov.md", "tags": ["pov", "en"]},
     {"id": "en-figurative", "lang": "en", "category": "songwriting", "title": "EN Technique: Figurative language", "file": "songwriting/en/techniques/figurative_language.md", "tags": ["metaphor", "en"]},
+    {"id": "en-craft-layer", "lang": "en", "category": "songwriting", "title": "EN Craft Layer (ops)", "file": "songwriting/en/EN_CRAFT_LAYER.md", "tags": ["craft", "ops", "en", "desk"]},
+    {"id": "cross-readme", "lang": "cross", "category": "songwriting", "title": "Cross layer — language-neutral", "file": "songwriting/cross/README.md", "tags": ["cross", "narrative", "topline"]},
+    {"id": "cross-narrative", "lang": "cross", "category": "songwriting", "title": "Cross: Narrative arc", "file": "songwriting/cross/narrative_arc.md", "tags": ["narrative", "cross"]},
+    {"id": "cross-topline", "lang": "cross", "category": "songwriting", "title": "Cross: Topline phrasing", "file": "songwriting/cross/topline_phrasing.md", "tags": ["topline", "prosody", "cross"]},
     {"id": "detector-ru", "lang": "ru", "category": "detector", "title": "Detector RU — точка входа", "file": "detector/ru/README.md", "tags": ["detector", "ai-slop"]},
     {"id": "detector-en", "lang": "en", "category": "detector", "title": "Detector EN 1.0 — entry", "file": "detector/en/README.md", "tags": ["detector", "en"]},
     {"id": "detector-en-patterns", "lang": "en", "category": "detector", "title": "EN patterns E01–E20", "file": "detector/en/patterns.md", "tags": ["patterns", "en"]},
@@ -63,11 +67,14 @@
     {"id": "genres-index", "lang": "cross", "category": "genres", "title": "Жанровые характеристики", "file": "genres/index.md", "tags": ["genres"]},
     {"id": "vocals-types", "lang": "cross", "category": "vocals", "title": "Типы голоса и обработка", "file": "vocals/types.md", "tags": ["vocals"]},
     {"id": "ref-golden-corpus", "lang": "ru", "category": "references", "title": "Золотой корпус (14 кейсов)", "file": "references/golden_corpus.md", "tags": ["detector", "regression"]},
+    {"id": "ref-en-golden-corpus", "lang": "en", "category": "references", "title": "EN Golden Corpus (EG-01..14)", "file": "references/en_golden_corpus.md", "tags": ["detector", "regression", "en"]},
+    {"id": "ref-sound-corpus", "lang": "cross", "category": "references", "title": "Sound corpus v0.1", "file": "references/sound_corpus.md", "tags": ["sound", "cw", "ind", "mix"]},
     {"id": "ref-pantheon-v2", "lang": "ru", "category": "references", "title": "Пантеон 2.0 и blend-карта", "file": "references/pantheon_v2.md", "tags": ["pantheon", "blend"]},
     {"id": "ref-scene-2025-2026", "lang": "ru", "category": "references", "title": "Разведка сцены 2024–2026", "file": "references/scene_2025_2026.md", "tags": ["scene", "research"]},
     {"id": "ref-siliconsense-catalog", "lang": "cross", "category": "references", "title": "SiliconSense Artist Catalog", "file": "references/siliconsense_catalog.md", "tags": ["catalog", "865"]},
+    {"id": "ref-siliconsense-genre-bpm", "lang": "cross", "category": "references", "title": "SiliconSense Genre→BPM JSON", "file": "references/siliconsense_genre_bpm.json", "tags": ["bpm", "genre", "json"]},
     {"id": "ref-index", "lang": "ru", "category": "references", "title": "Артисты и ориентиры", "file": "references/index.md", "tags": ["artists"]},
     {"id": "ref-writing-craft", "lang": "en", "category": "references", "title": "Writing Craft Books", "file": "references/writing_craft_books.md", "tags": ["books", "craft"]}
   ],
-  "count": 54
+  "count": 61
 }

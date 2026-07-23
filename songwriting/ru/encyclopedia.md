@@ -1,24 +1,25 @@
 # Энциклопедия русскоязычной лирики и сонграйтинга (v2.0)
 
-Полный рабочий справочник (30 разделов). Разбит на части из‑за размера API-push.
+Полный текст разбит на части (лимит GitHub MCP push). Источник-монолит: [`russian-lyrics-kb` encyclopedia.md](https://github.com/AMEOBIUS-space/russian-lyrics-kb/blob/main/songwriting/encyclopedia.md) · SHA `31ed0fef97e424cf720cc5b6f4e8f6905e536cf8`.
 
-| Часть | Файл | Содержание |
+| # | Файл | Старт |
 |---|---|---|
-| 1 | [parts/encyclopedia_p1.md](./parts/encyclopedia_p1.md) | Принципы → синтаксис (§0–6) |
-| 2 | [parts/encyclopedia_p2.md](./parts/encyclopedia_p2.md) | Голос → explicit (§7–14) |
-| 3 | [parts/encyclopedia_p3.md](./parts/encyclopedia_p3.md) | Сленг → AI-карта (§15–22) |
-| 4 | [parts/encyclopedia_p4.md](./parts/encyclopedia_p4.md) | Деревья → JSON/scoring (§23–30) |
+| 1 | [parts/part_01.md](./parts/part_01.md) | Оглавление · Принципы · Пантеон |
+| 2 | [parts/part_02.md](./parts/part_02.md) | Метрика · Рифма |
+| 3 | [parts/part_03.md](./parts/part_03.md) | Структура · Образная система |
+| 4 | [parts/part_04.md](./parts/part_04.md) | Синтаксис · Голос · Регистр |
+| 5 | [parts/part_05.md](./parts/part_05.md) | Уродливое · Звукопись · Интертекст |
+| 6 | [parts/part_06.md](./parts/part_06.md) | Жанры · Хук |
+| 7 | [parts/part_07.md](./parts/part_07.md) | Explicit · Сленг · Анти-AI |
+| 8 | [parts/part_08.md](./parts/part_08.md) | Пайплайн · Калибровка |
+| 9 | [parts/part_09.md](./parts/part_09.md) | Разборы · Чек-листы |
+| 10 | [parts/part_10.md](./parts/part_10.md) | Упражнения · AI-карта · Деревья |
+| 11 | [parts/part_11.md](./parts/part_11.md) | Векторы стиля |
+| 12 | [parts/part_12.md](./parts/part_12.md) | Паттерны детекции |
+| 13 | [parts/part_13.md](./parts/part_13.md) | Правила трансформации |
+| 14 | [parts/part_14.md](./parts/part_14.md) | Шаблоны генерации · Scoring |
+| 15 | [parts/part_15.md](./parts/part_15.md) | Промпт-скаффолды |
+| 16 | [parts/part_16.md](./parts/part_16.md) | Машинно-читаемые блоки |
+| 17 | [parts/part_17.md](./parts/part_17.md) | Финал |
 
-> Полный monolithic blob (идентичный): [`russian-lyrics-kb` …/encyclopedia.md](https://github.com/AMEOBIUS-space/russian-lyrics-kb/blob/main/songwriting/encyclopedia.md) · SHA `31ed0fef97e424cf720cc5b6f4e8f6905e536cf8`
-
-## Ключевые блоки (quick ref)
-
-**Детектор 2.0:** 25 паттернов, hard-fail, white-list 25.27 → см. p4 + `detector/ru/`
-
-**Scoring 2.0:** P1–P12, порог GOOD ≥ 7.0 → p4 §28
-
-**Связанные:**
-- `references/golden_corpus.md` — 14 lyric regression cases
-- `references/sound_corpus.md` — sound cases (CW/IND)
-- `references/pantheon_v2.md`
-- `songwriting/ru/modern_russian_lyrics.md`
+Связанные: `references/golden_corpus.md`, `references/sound_corpus.md`, `references/en_golden_corpus.md`, `detector/ru/`, `songwriting/en/EN_CRAFT_LAYER.md`, `songwriting/cross/`

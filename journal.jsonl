@@ -1,6 +1,8 @@
 {"date": "2026-07-23", "agent": "eni", "action": "bootstrap", "summary": "Создан общий репо lyrics-kb: двуязычный скелет (RU/EN), язык-нейтральный production/suno слой, единый index.json и journal.jsonl"}
-{"date": "2026-07-23", "agent": "eni", "action": "migrate-ru", "summary": "Перенос RU-базы из russian-lyrics-kb: songwriting/ru, detector/ru, production, suno, genres, vocals, references. index 40→54 entries after EN. encyclopedia initially pointer."}
+{"date": "2026-07-23", "agent": "eni", "action": "migrate-ru", "summary": "Перенос RU-базы из russian-lyrics-kb: songwriting/ru, detector/ru, production, suno, genres, vocals, references. encyclopedia initially pointer."}
 {"date": "2026-07-23", "agent": "eni", "action": "en-theory", "summary": "EN theory: prosody, rhyme, song_structure, hooks_and_titles, meter_phrasing"}
 {"date": "2026-07-23", "agent": "eni", "action": "en-techniques", "summary": "EN techniques: object_writing, boxes_worksheets, tension_and_release, pov, figurative_language"}
 {"date": "2026-07-23", "agent": "eni", "action": "en-detector", "summary": "EN detector 1.0: patterns E01–E20, whitelist W1–W6, scoring E1–E12, cliche rhymes"}
-{"date": "2026-07-23", "agent": "eni", "action": "sound-corpus-en-craft", "summary": "Added references/sound_corpus.md (v0.1 mirror), songwriting/en/EN_CRAFT_LAYER.md, encyclopedia multipart hub. Tracking t1–t5."}
+{"date": "2026-07-23", "agent": "eni", "action": "sound-corpus-en-craft", "summary": "Added references/sound_corpus.md (v0.1), songwriting/en/EN_CRAFT_LAYER.md, encyclopedia multipart hub."}
+{"date": "2026-07-23", "agent": "eni", "action": "en-golden-cross", "summary": "EN golden corpus EG-01..14; songwriting/cross narrative_arc + topline_phrasing."}
+{"date": "2026-07-23", "agent": "eni", "action": "index-3.2", "summary": "index.json → 3.2-lyrics-kb, 61 entries; README status table; encyclopedia parts 01/02/17 seeded."}
