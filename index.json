@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "kb_version": "3.6-lyrics-kb",
+  "kb_version": "3.7-lyrics-kb",
   "created": "2026-07-23",
   "updated": "2026-07-23",
-  "description": "Общая база знаний lyrics-kb: RU + EN theory/techniques/detector + craft/cross + sound corpus + CW cases 001–010 full + language-neutral production/suno; genre_bpm stub+pointer",
+  "description": "Общая база знаний lyrics-kb: RU + EN theory/techniques/detector + craft/cross + sound corpus + CW cases 001–010 full + EN-001 + language-neutral production/suno; genre_bpm stub+pointer",
   "languages": ["ru", "en", "cross"],
   "categories": ["songwriting", "detector", "production", "suno", "references", "genres", "vocals", "cases"],
   "sources": {
@@ -75,7 +75,7 @@
     {"id": "ref-siliconsense-genre-bpm", "lang": "cross", "category": "references", "title": "SiliconSense Genre→BPM JSON (stub+pointer)", "file": "references/siliconsense_genre_bpm.json", "tags": ["bpm", "genre", "json", "stub"]},
     {"id": "ref-index", "lang": "ru", "category": "references", "title": "Артисты и ориентиры", "file": "references/index.md", "tags": ["artists"]},
     {"id": "ref-writing-craft", "lang": "en", "category": "references", "title": "Writing Craft Books", "file": "references/writing_craft_books.md", "tags": ["books", "craft"]},
-    {"id": "cases-index", "lang": "cross", "category": "cases", "title": "Cases index — CW spine + series lessons", "file": "cases/README.md", "tags": ["cases", "coldwave", "desk"]},
+    {"id": "cases-index", "lang": "cross", "category": "cases", "title": "Cases index — CW spine + EN/IND lane", "file": "cases/README.md", "tags": ["cases", "coldwave", "en", "desk"]},
     {"id": "case-cw-003", "lang": "ru", "category": "cases", "title": "CW-003 РАЗМОРОЗКА", "file": "cases/CW-003-razmorozka.md", "tags": ["cw-003", "coldwave", "desk"]},
     {"id": "case-cw-004", "lang": "ru", "category": "cases", "title": "CW-004 ЧУЖОЙ ЭТАЖ", "file": "cases/CW-004-chuzhoj-etazh.md", "tags": ["cw-004", "coldwave", "desk"]},
     {"id": "case-cw-005", "lang": "ru", "category": "cases", "title": "CW-005 СЧЁТЧИК", "file": "cases/CW-005-schetchik.md", "tags": ["cw-005", "coldwave", "desk"]},
@@ -83,7 +83,8 @@
     {"id": "case-cw-007", "lang": "ru", "category": "cases", "title": "CW-007 КРУГЛОСУТОЧНЫЙ", "file": "cases/CW-007-kruglosutochnyj.md", "tags": ["cw-007", "coldwave", "desk"]},
     {"id": "case-cw-008", "lang": "ru", "category": "cases", "title": "CW-008 ПО ТУ СТОРОНУ КАССЫ", "file": "cases/CW-008-po-tu-storonu-kassy.md", "tags": ["cw-008", "coldwave", "desk", "diptych"]},
     {"id": "case-cw-009", "lang": "ru", "category": "cases", "title": "CW-009 ДНЕВНОЙ СВЕТ", "file": "cases/CW-009-dnevnoj-svet.md", "tags": ["cw-009", "coldwave", "desk"]},
-    {"id": "case-cw-010", "lang": "ru", "category": "cases", "title": "CW-010 ОТТЕПЕЛЬ", "file": "cases/CW-010-ottepel.md", "tags": ["cw-010", "coldwave", "desk"]}
+    {"id": "case-cw-010", "lang": "ru", "category": "cases", "title": "CW-010 ОТТЕПЕЛЬ", "file": "cases/CW-010-ottepel.md", "tags": ["cw-010", "coldwave", "desk"]},
+    {"id": "case-en-001", "lang": "en", "category": "cases", "title": "EN-001 RECEIPT STUCK", "file": "cases/EN-001-receipt-stuck.md", "tags": ["en-001", "industrial", "en", "desk"]}
   ],
-  "count": 70
+  "count": 71
 }
